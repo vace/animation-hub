@@ -1,0 +1,37 @@
+{
+  "name": "shakeY",
+  "categories": [
+    "attention",
+    "shake",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "from, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "10%, 30%, 50%, 70%, 90%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, -10px, 0)"
+        }
+      ]
+    },
+    {
+      "name": "20%, 40%, 60%, 80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 10px, 0)"
+        }
+      ]
+    }
+  ]
+}

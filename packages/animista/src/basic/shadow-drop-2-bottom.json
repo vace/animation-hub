@@ -1,0 +1,37 @@
+{
+  "name": "shadow-drop-2-bottom",
+  "categories": [
+    "basic",
+    "shadow",
+    "drop",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0)"
+        },
+        {
+          "property": "box-shadow",
+          "value": "0 0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(50px) translateY(-12px)"
+        },
+        {
+          "property": "box-shadow",
+          "value": "0 12px 20px -12px rgba(0, 0, 0, .35)"
+        }
+      ]
+    }
+  ]
+}

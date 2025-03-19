@@ -1,0 +1,36 @@
+{
+  "name": "slide-out-bottom",
+  "categories": [
+    "exit",
+    "slide",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(1000px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "boingInUp",
+  "categories": [
+    "magic",
+    "boing",
+    "entrance",
+    "up"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(-90deg)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(50deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(0deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

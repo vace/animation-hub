@@ -1,0 +1,29 @@
+{
+  "name": "text-shadow-drop-top",
+  "categories": [
+    "text",
+    "shadow",
+    "drop",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "0 -6px 18px rgba(0, 0, 0, .35)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "rotate-in-2-tr-ccw",
+  "categories": [
+    "entrance",
+    "rotate",
+    "top-right",
+    "ccw"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(45deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 0%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 0%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

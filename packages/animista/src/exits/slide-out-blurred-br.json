@@ -1,0 +1,53 @@
+{
+  "name": "slide-out-blurred-br",
+  "categories": [
+    "exit",
+    "slide",
+    "blurred",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(0, 0) skew(0deg, 0deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(1000px, 1000px) skew(80deg, 10deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(40px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "zoomIn",
+  "categories": [
+    "zooming",
+    "entrance",
+    "zoom"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(0.3, 0.3, 0.3)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

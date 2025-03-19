@@ -1,0 +1,14 @@
+@keyframes rotate-hor-bottom {
+  0% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+  }
+  to {
+    transform: rotateX(360deg);
+    transform-origin: bottom;
+  }
+}
+
+.rotate-hor-bottom {
+  animation-name: rotate-hor-bottom;
+}

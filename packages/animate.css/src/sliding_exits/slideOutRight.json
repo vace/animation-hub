@@ -1,0 +1,33 @@
+{
+  "name": "slideOutRight",
+  "categories": [
+    "sliding",
+    "exit",
+    "slide",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "visibility",
+          "value": "hidden"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(100%, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

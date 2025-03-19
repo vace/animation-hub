@@ -1,0 +1,84 @@
+{
+  "name": "bounce-out-top",
+  "categories": [
+    "exit",
+    "bounce",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, 15%, 38%, 70%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "5%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-30px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "25%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-38px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "52%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-75px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "85%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-800px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

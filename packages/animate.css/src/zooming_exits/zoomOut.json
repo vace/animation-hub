@@ -1,0 +1,41 @@
+{
+  "name": "zoomOut",
+  "categories": [
+    "zooming",
+    "exit",
+    "zoom"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(0.3, 0.3, 0.3)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

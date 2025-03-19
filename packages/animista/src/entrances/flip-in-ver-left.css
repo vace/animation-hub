@@ -1,0 +1,14 @@
+@keyframes flip-in-ver-left {
+  0% {
+    transform: rotateY(80deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+.flip-in-ver-left {
+  animation-name: flip-in-ver-left;
+}

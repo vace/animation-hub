@@ -1,0 +1,108 @@
+{
+  "name": "line-scale-pulse-out-rapid",
+  "animations": [
+    {
+      "name": "line-scale-pulse-out-rapid",
+      "categories": [
+        "loader",
+        "line",
+        "scale",
+        "pulse",
+        "exit",
+        "rapid"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 90%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(1)"
+            }
+          ]
+        },
+        {
+          "name": "80%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(.3)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "line-scale-pulse-out-rapid",
+      "selectors": [
+        ".line-scale-pulse-out-rapid>div"
+      ],
+      "declarations": [
+        {
+          "property": "vertical-align",
+          "value": "middle"
+        },
+        {
+          "property": "animation",
+          "value": "line-scale-pulse-out-rapid .9s -.5s infinite cubic-bezier(.11, .49, .38, .78)"
+        },
+        {
+          "property": "width",
+          "value": "4px"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "border-radius",
+          "value": "2px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-pulse-out-rapid>div:nth-child(2)",
+        ".line-scale-pulse-out-rapid>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.25s !important"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-pulse-out-rapid>div:nth-child(1)",
+        ".line-scale-pulse-out-rapid>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "0s !important"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"line-scale-pulse-out-rapid\"><div></div><div></div><div></div><div></div><div></div></div>"
+}

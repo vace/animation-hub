@@ -1,0 +1,29 @@
+{
+  "name": "flip-horizontal-fwd",
+  "categories": [
+    "basic",
+    "flip",
+    "horizontal",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) rotateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(160px) rotateX(-180deg)"
+        }
+      ]
+    }
+  ]
+}

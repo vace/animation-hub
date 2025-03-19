@@ -1,0 +1,44 @@
+{
+  "name": "puff-in-hor",
+  "categories": [
+    "entrance",
+    "puff",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(2)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(4px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(1)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

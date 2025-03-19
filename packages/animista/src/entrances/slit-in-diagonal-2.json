@@ -1,0 +1,57 @@
+{
+  "name": "slit-in-diagonal-2",
+  "categories": [
+    "entrance",
+    "slit",
+    "diagonal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-800px) rotate3d(-1, 1, 0, -90deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "54%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-160px) rotate3d(-1, 1, 0, -87deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) rotate3d(-1, 1, 0, 0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    }
+  ]
+}

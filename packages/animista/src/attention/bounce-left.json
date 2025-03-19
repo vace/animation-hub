@@ -1,0 +1,118 @@
+{
+  "name": "bounce-left",
+  "categories": [
+    "attention",
+    "bounce",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-48px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "24%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-26px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "65%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-13px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "82%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-6.5px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "93%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-4px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "25%, 55%, 75%, 87%, 98%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

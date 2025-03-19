@@ -1,0 +1,38 @@
+{
+  "name": "scale-down-hor-left",
+  "categories": [
+    "basic",
+    "scale",
+    "down",
+    "horizontal",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(.3)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    }
+  ]
+}

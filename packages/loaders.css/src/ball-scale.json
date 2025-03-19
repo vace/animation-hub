@@ -1,0 +1,86 @@
+{
+  "name": "ball-scale",
+  "animations": [
+    {
+      "name": "ball-scale",
+      "categories": [
+        "loader",
+        "ball",
+        "scale"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale>div"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale",
+      "selectors": [
+        ".ball-scale>div"
+      ],
+      "declarations": [
+        {
+          "property": "height",
+          "value": "60px"
+        },
+        {
+          "property": "width",
+          "value": "60px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale 1s 0s ease-in-out infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-scale\"><div></div></div>"
+}

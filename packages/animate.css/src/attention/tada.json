@@ -1,0 +1,54 @@
+{
+  "name": "tada",
+  "categories": [
+    "attention",
+    "tada"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    },
+    {
+      "name": "10%, 20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg)"
+        }
+      ]
+    },
+    {
+      "name": "30%, 50%, 70%, 90%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)"
+        }
+      ]
+    },
+    {
+      "name": "40%, 60%, 80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    }
+  ]
+}

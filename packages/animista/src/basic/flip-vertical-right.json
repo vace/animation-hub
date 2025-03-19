@@ -1,0 +1,29 @@
+{
+  "name": "flip-vertical-right",
+  "categories": [
+    "basic",
+    "flip",
+    "vertical",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(180deg)"
+        }
+      ]
+    }
+  ]
+}

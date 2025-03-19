@@ -1,0 +1,33 @@
+{
+  "name": "slideInRight",
+  "categories": [
+    "sliding",
+    "entrance",
+    "slide",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(100%, 0, 0)"
+        },
+        {
+          "property": "visibility",
+          "value": "visible"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

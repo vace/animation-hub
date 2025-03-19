@@ -1,0 +1,28 @@
+{
+  "name": "slide-br",
+  "categories": [
+    "basic",
+    "slide",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(100px) translateX(100px)"
+        }
+      ]
+    }
+  ]
+}

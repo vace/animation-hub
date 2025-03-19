@@ -1,0 +1,37 @@
+{
+  "name": "flip-out-hor-top",
+  "categories": [
+    "exit",
+    "flip",
+    "horizontal",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(70deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

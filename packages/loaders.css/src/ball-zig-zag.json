@@ -1,0 +1,172 @@
+{
+  "name": "ball-zig-zag",
+  "animations": [
+    {
+      "name": "ball-zig",
+      "categories": [
+        "loader",
+        "ball",
+        "zig",
+        "zag"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-15px, -30px)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(15px, -30px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ball-zag",
+      "categories": [
+        "loader",
+        "ball",
+        "zig",
+        "zag"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(15px, 30px)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-15px, 30px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-zig-zag"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translate(-15px, -15px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-zig-zag>div"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px 2px 2px 15px"
+        },
+        {
+          "property": "top",
+          "value": "4px"
+        },
+        {
+          "property": "left",
+          "value": "-7px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-zig",
+      "selectors": [
+        ".ball-zig-zag>div:first-child"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-zig .7s 0s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-zag",
+      "selectors": [
+        ".ball-zig-zag>div:last-child"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-zag .7s 0s infinite linear"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-zig-zag\"><div></div><div></div></div>"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "tilt-in-right-1",
+  "categories": [
+    "entrance",
+    "tilt",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(-30deg) translateX(300px) skewX(30deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0deg) translateX(0) skewX(0deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

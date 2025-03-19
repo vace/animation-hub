@@ -1,0 +1,50 @@
+{
+  "name": "focus-in-contract-bck",
+  "categories": [
+    "text",
+    "focus",
+    "entrance",
+    "contract",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "1em"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(300px)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(12px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(12px)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

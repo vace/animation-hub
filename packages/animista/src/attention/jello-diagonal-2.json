@@ -1,0 +1,64 @@
+{
+  "name": "jello-diagonal-2",
+  "categories": [
+    "attention",
+    "jello",
+    "diagonal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(0deg 0deg)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(-25deg -25deg)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(15deg, 15deg)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(-15deg, -15deg)"
+        }
+      ]
+    },
+    {
+      "name": "65%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(5deg, 5deg)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skew(-5deg, -5deg)"
+        }
+      ]
+    }
+  ]
+}

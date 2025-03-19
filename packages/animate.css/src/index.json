@@ -1,0 +1,6368 @@
+[
+  {
+    "name": "flipOutX",
+    "categories": [
+      "flippers",
+      "flip",
+      "exit",
+      "horizontal"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, -20deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, 90deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "backface-visibility",
+        "value": "visible !important"
+      }
+    ]
+  },
+  {
+    "name": "flipInX",
+    "categories": [
+      "flippers",
+      "flip",
+      "entrance",
+      "horizontal"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, 90deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, -20deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, 10deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(1, 0, 0, -5deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "backface-visibility",
+        "value": "visible !important"
+      }
+    ]
+  },
+  {
+    "name": "flipInY",
+    "categories": [
+      "flippers",
+      "flip",
+      "entrance",
+      "vertical"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, 90deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, -20deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, 10deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, -5deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "backface-visibility",
+        "value": "visible !important"
+      }
+    ]
+  },
+  {
+    "name": "flipOutY",
+    "categories": [
+      "flippers",
+      "flip",
+      "exit",
+      "vertical"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, -15deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) rotate3d(0, 1, 0, 90deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "backface-visibility",
+        "value": "visible !important"
+      }
+    ]
+  },
+  {
+    "name": "flip",
+    "categories": [
+      "flippers",
+      "flip"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-out"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)\n      rotate3d(0, 1, 0, -190deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-out"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)\n      rotate3d(0, 1, 0, -170deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)\n      rotate3d(0, 1, 0, 0deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounce",
+    "categories": [
+      "attention",
+      "bounce"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 20%, 53%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "40%, 43%",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.755, 0.05, 0.855, 0.06)"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -30px, 0) scaleY(1.1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.755, 0.05, 0.855, 0.06)"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -15px, 0) scaleY(1.05)"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transition-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scaleY(0.95)"
+          }
+        ]
+      },
+      {
+        "name": "90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -4px, 0) scaleY(1.02)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center bottom"
+      }
+    ]
+  },
+  {
+    "name": "tada",
+    "categories": [
+      "attention",
+      "tada"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "10%, 20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg)"
+          }
+        ]
+      },
+      {
+        "name": "30%, 50%, 70%, 90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)"
+          }
+        ]
+      },
+      {
+        "name": "40%, 60%, 80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "flash",
+    "categories": [
+      "attention",
+      "flash"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 50%, to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "25%, 75%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swing",
+    "categories": [
+      "attention",
+      "swing"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 15deg)"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -10deg)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 5deg)"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -5deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 0deg)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "top center"
+      }
+    ]
+  },
+  {
+    "name": "shakeX",
+    "categories": [
+      "attention",
+      "shake",
+      "horizontal"
+    ],
+    "keyframes": [
+      {
+        "name": "from, to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "10%, 30%, 50%, 70%, 90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-10px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "20%, 40%, 60%, 80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(10px, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "jello",
+    "categories": [
+      "attention",
+      "jello"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 11.1%, to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "22.2%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-12.5deg) skewY(-12.5deg)"
+          }
+        ]
+      },
+      {
+        "name": "33.3%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(6.25deg) skewY(6.25deg)"
+          }
+        ]
+      },
+      {
+        "name": "44.4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-3.125deg) skewY(-3.125deg)"
+          }
+        ]
+      },
+      {
+        "name": "55.5%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(1.5625deg) skewY(1.5625deg)"
+          }
+        ]
+      },
+      {
+        "name": "66.6%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-0.78125deg) skewY(-0.78125deg)"
+          }
+        ]
+      },
+      {
+        "name": "77.7%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(0.390625deg) skewY(0.390625deg)"
+          }
+        ]
+      },
+      {
+        "name": "88.8%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-0.1953125deg) skewY(-0.1953125deg)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center"
+      }
+    ]
+  },
+  {
+    "name": "shakeY",
+    "categories": [
+      "attention",
+      "shake",
+      "vertical"
+    ],
+    "keyframes": [
+      {
+        "name": "from, to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "10%, 30%, 50%, 70%, 90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -10px, 0)"
+          }
+        ]
+      },
+      {
+        "name": "20%, 40%, 60%, 80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 10px, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "wobble",
+    "categories": [
+      "attention",
+      "wobble"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "15%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)"
+          }
+        ]
+      },
+      {
+        "name": "45%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pulse",
+    "categories": [
+      "attention",
+      "pulse"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.05, 1.05, 1.05)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-in-out"
+      }
+    ]
+  },
+  {
+    "name": "heartBeat",
+    "categories": [
+      "attention",
+      "heart",
+      "beat"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          }
+        ]
+      },
+      {
+        "name": "14%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1.3)"
+          }
+        ]
+      },
+      {
+        "name": "28%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          }
+        ]
+      },
+      {
+        "name": "42%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1.3)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-in-out"
+      }
+    ]
+  },
+  {
+    "name": "rubberBand",
+    "categories": [
+      "attention",
+      "rubber",
+      "band"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.25, 0.75, 1)"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.75, 1.25, 1)"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.15, 0.85, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.95, 1.05, 1)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.05, 0.95, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "headShake",
+    "categories": [
+      "attention",
+      "head",
+      "shake"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0)"
+          }
+        ]
+      },
+      {
+        "name": "6.5%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(-6px) rotateY(-9deg)"
+          }
+        ]
+      },
+      {
+        "name": "18.5%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(5px) rotateY(7deg)"
+          }
+        ]
+      },
+      {
+        "name": "31.5%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(-3px) rotateY(-5deg)"
+          }
+        ]
+      },
+      {
+        "name": "43.5%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(2px) rotateY(3deg)"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-in-out"
+      }
+    ]
+  },
+  {
+    "name": "shake",
+    "categories": [
+      "attention",
+      "shake"
+    ],
+    "keyframes": [
+      {
+        "name": "from, to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "10%, 30%, 50%, 70%, 90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-10px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "20%, 40%, 60%, 80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(10px, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutTopLeft",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "top",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, -100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutUp",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutTopRight",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "top",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, -100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutBottomLeft",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "bottom",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutRightBig",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "right",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(2000px, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutDown",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutBottomRight",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "bottom",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutLeft",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutUpBig",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "up",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2000px, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOut",
+    "categories": [
+      "fading",
+      "exit",
+      "fade"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutDownBig",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "down",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2000px, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutRight",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeOutLeftBig",
+    "categories": [
+      "fading",
+      "exit",
+      "fade",
+      "left",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-2000px, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideInUp",
+    "categories": [
+      "sliding",
+      "entrance",
+      "slide",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0)"
+          },
+          {
+            "property": "visibility",
+            "value": "visible"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideInDown",
+    "categories": [
+      "sliding",
+      "entrance",
+      "slide",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0)"
+          },
+          {
+            "property": "visibility",
+            "value": "visible"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideInRight",
+    "categories": [
+      "sliding",
+      "entrance",
+      "slide",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0)"
+          },
+          {
+            "property": "visibility",
+            "value": "visible"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideInLeft",
+    "categories": [
+      "sliding",
+      "entrance",
+      "slide",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0)"
+          },
+          {
+            "property": "visibility",
+            "value": "visible"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomOutUp",
+    "categories": [
+      "zooming",
+      "exit",
+      "zoom",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center bottom"
+      }
+    ]
+  },
+  {
+    "name": "zoomOutDown",
+    "categories": [
+      "zooming",
+      "exit",
+      "zoom",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center bottom"
+      }
+    ]
+  },
+  {
+    "name": "zoomOutRight",
+    "categories": [
+      "zooming",
+      "exit",
+      "zoom",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale(0.1) translate3d(2000px, 0, 0)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "right center"
+      }
+    ]
+  },
+  {
+    "name": "zoomOutLeft",
+    "categories": [
+      "zooming",
+      "exit",
+      "zoom",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale(0.1) translate3d(-2000px, 0, 0)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "left center"
+      }
+    ]
+  },
+  {
+    "name": "zoomOut",
+    "categories": [
+      "zooming",
+      "exit",
+      "zoom"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.3, 0.3, 0.3)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backInUp",
+    "categories": [
+      "back",
+      "entrance",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(1200px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backInLeft",
+    "categories": [
+      "back",
+      "entrance",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(-2000px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backInDown",
+    "categories": [
+      "back",
+      "entrance",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(-1200px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backInRight",
+    "categories": [
+      "back",
+      "entrance",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(2000px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rotateOutDownLeft",
+    "categories": [
+      "rotating",
+      "exit",
+      "rotate",
+      "down",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "left bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateOutDownRight",
+    "categories": [
+      "rotating",
+      "exit",
+      "rotate",
+      "down",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "right bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateOutUpRight",
+    "categories": [
+      "rotating",
+      "exit",
+      "rotate",
+      "up",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 90deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "right bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateOut",
+    "categories": [
+      "rotating",
+      "exit",
+      "rotate"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 200deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center"
+      }
+    ]
+  },
+  {
+    "name": "rotateOutUpLeft",
+    "categories": [
+      "rotating",
+      "exit",
+      "rotate",
+      "up",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "left bottom"
+      }
+    ]
+  },
+  {
+    "name": "slideOutDown",
+    "categories": [
+      "sliding",
+      "exit",
+      "slide",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "visibility",
+            "value": "hidden"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideOutRight",
+    "categories": [
+      "sliding",
+      "exit",
+      "slide",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "visibility",
+            "value": "hidden"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideOutUp",
+    "categories": [
+      "sliding",
+      "exit",
+      "slide",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "visibility",
+            "value": "hidden"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slideOutLeft",
+    "categories": [
+      "sliding",
+      "exit",
+      "slide",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "visibility",
+            "value": "hidden"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "jackInTheBox",
+    "categories": [
+      "specials",
+      "jack",
+      "entrance",
+      "the",
+      "box"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale(0.1) rotate(30deg)"
+          },
+          {
+            "property": "transform-origin",
+            "value": "center bottom"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate(-10deg)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate(3deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lightSpeedOutRight",
+    "categories": [
+      "specials",
+      "light",
+      "speed",
+      "exit",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0) skewX(30deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-in"
+      }
+    ]
+  },
+  {
+    "name": "lightSpeedInLeft",
+    "categories": [
+      "specials",
+      "light",
+      "speed",
+      "entrance",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0) skewX(30deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-20deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(5deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-out"
+      }
+    ]
+  },
+  {
+    "name": "hinge",
+    "categories": [
+      "specials",
+      "hinge"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in-out"
+          }
+        ]
+      },
+      {
+        "name": "20%, 60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 80deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in-out"
+          }
+        ]
+      },
+      {
+        "name": "40%, 80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 60deg)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "ease-in-out"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 700px, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "top left"
+      }
+    ]
+  },
+  {
+    "name": "lightSpeedInRight",
+    "categories": [
+      "specials",
+      "light",
+      "speed",
+      "entrance",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0) skewX(-30deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(20deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "skewX(-5deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-out"
+      }
+    ]
+  },
+  {
+    "name": "lightSpeedOutLeft",
+    "categories": [
+      "specials",
+      "light",
+      "speed",
+      "exit",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0) skewX(-30deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "animation-timing-function",
+        "value": "ease-in"
+      }
+    ]
+  },
+  {
+    "name": "rollOut",
+    "categories": [
+      "specials",
+      "roll",
+      "exit"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rollIn",
+    "categories": [
+      "specials",
+      "roll",
+      "entrance"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceOutDown",
+    "categories": [
+      "bouncing",
+      "exit",
+      "bounce",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 10px, 0) scaleY(0.985)"
+          }
+        ]
+      },
+      {
+        "name": "40%, 45%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -20px, 0) scaleY(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2000px, 0) scaleY(3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceOutUp",
+    "categories": [
+      "bouncing",
+      "exit",
+      "bounce",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -10px, 0) scaleY(0.985)"
+          }
+        ]
+      },
+      {
+        "name": "40%, 45%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 20px, 0) scaleY(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2000px, 0) scaleY(3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceOut",
+    "categories": [
+      "bouncing",
+      "exit",
+      "bounce"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.9, 0.9, 0.9)"
+          }
+        ]
+      },
+      {
+        "name": "50%, 55%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(1.1, 1.1, 1.1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.3, 0.3, 0.3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceOutRight",
+    "categories": [
+      "bouncing",
+      "exit",
+      "bounce",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-20px, 0, 0) scaleX(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(2000px, 0, 0) scaleX(2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceOutLeft",
+    "categories": [
+      "bouncing",
+      "exit",
+      "bounce",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(20px, 0, 0) scaleX(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-2000px, 0, 0) scaleX(2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomInLeft",
+    "categories": [
+      "zooming",
+      "entrance",
+      "zoom",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomIn",
+    "categories": [
+      "zooming",
+      "entrance",
+      "zoom"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.3, 0.3, 0.3)"
+          }
+        ]
+      },
+      {
+        "name": "50%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomInRight",
+    "categories": [
+      "zooming",
+      "entrance",
+      "zoom",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomInDown",
+    "categories": [
+      "zooming",
+      "entrance",
+      "zoom",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoomInUp",
+    "categories": [
+      "zooming",
+      "entrance",
+      "zoom",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0)"
+          },
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.175, 0.885, 0.32, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceIn",
+    "categories": [
+      "bouncing",
+      "entrance",
+      "bounce"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 20%, 40%, 60%, 80%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        ]
+      },
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(0.3, 0.3, 0.3)"
+          }
+        ]
+      },
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(1.1, 1.1, 1.1)"
+          }
+        ]
+      },
+      {
+        "name": "40%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.9, 0.9, 0.9)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(1.03, 1.03, 1.03)"
+          }
+        ]
+      },
+      {
+        "name": "80%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale3d(0.97, 0.97, 0.97)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceInUp",
+    "categories": [
+      "bouncing",
+      "entrance",
+      "bounce",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 60%, 75%, 90%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        ]
+      },
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 3000px, 0) scaleY(5)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -20px, 0) scaleY(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 10px, 0) scaleY(0.95)"
+          }
+        ]
+      },
+      {
+        "name": "90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -5px, 0) scaleY(0.985)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceInLeft",
+    "categories": [
+      "bouncing",
+      "entrance",
+      "bounce",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 60%, 75%, 90%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        ]
+      },
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-3000px, 0, 0) scaleX(3)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(25px, 0, 0) scaleX(1)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-10px, 0, 0) scaleX(0.98)"
+          }
+        ]
+      },
+      {
+        "name": "90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(5px, 0, 0) scaleX(0.995)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceInDown",
+    "categories": [
+      "bouncing",
+      "entrance",
+      "bounce",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 60%, 75%, 90%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        ]
+      },
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -3000px, 0) scaleY(3)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 25px, 0) scaleY(0.9)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -10px, 0) scaleY(0.95)"
+          }
+        ]
+      },
+      {
+        "name": "90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 5px, 0) scaleY(0.985)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bounceInRight",
+    "categories": [
+      "bouncing",
+      "entrance",
+      "bounce",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from, 60%, 75%, 90%, to",
+        "declarations": [
+          {
+            "property": "animation-timing-function",
+            "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+          }
+        ]
+      },
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(3000px, 0, 0) scaleX(3)"
+          }
+        ]
+      },
+      {
+        "name": "60%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-25px, 0, 0) scaleX(1)"
+          }
+        ]
+      },
+      {
+        "name": "75%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(10px, 0, 0) scaleX(0.98)"
+          }
+        ]
+      },
+      {
+        "name": "90%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-5px, 0, 0) scaleX(0.995)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopInUp",
+    "categories": [
+      "swoop",
+      "entrance",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0) scale3d(1, 1.5, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -80.75%, 0) scale3d(1, 1.44, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -63.78%, 0) scale3d(1, 1.38, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -48.97%, 0) scale3d(1, 1.33, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -36.18%, 0) scale3d(1, 1.28, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -25.28%, 0) scale3d(1, 1.24, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -16.13%, 0) scale3d(1, 1.2, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -8.6%, 0) scale3d(1, 1.17, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.57%, 0) scale3d(1, 1.14, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.12%, 0) scale3d(1, 1.11, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 5.58%, 0) scale3d(1, 1.09, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 7.95%, 0) scale3d(1, 1.07, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.37%, 0) scale3d(1, 1.05, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.96%, 0) scale3d(1, 1.04, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.87%, 0) scale3d(1, 1.03, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.22%, 0) scale3d(1, 1.02, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 8.15%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 6.78%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 5.27%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 3.73%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 1.11%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopInDown",
+    "categories": [
+      "swoop",
+      "entrance",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0) scale3d(1, 1.5, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 80.75%, 0) scale3d(1, 1.44, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 63.78%, 0) scale3d(1, 1.38, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 48.97%, 0) scale3d(1, 1.33, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 36.18%, 0) scale3d(1, 1.28, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 25.28%, 0) scale3d(1, 1.24, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 16.13%, 0) scale3d(1, 1.2, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 8.6%, 0) scale3d(1, 1.17, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.57%, 0) scale3d(1, 1.14, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.12%, 0) scale3d(1, 1.11, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -5.58%, 0) scale3d(1, 1.09, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -7.95%, 0) scale3d(1, 1.07, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.37%, 0) scale3d(1, 1.05, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.96%, 0) scale3d(1, 1.04, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.87%, 0) scale3d(1, 1.03, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.22%, 0) scale3d(1, 1.02, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -8.15%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -6.78%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -5.27%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -3.73%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -1.11%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -0.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopInLeft",
+    "categories": [
+      "swoop",
+      "entrance",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0) scale3d(1.5, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-80.75%, 0, 0) scale3d(1.44, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-63.78%, 0, 0) scale3d(1.38, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-48.97%, 0, 0) scale3d(1.33, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-36.18%, 0, 0) scale3d(1.28, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-25.28%, 0, 0) scale3d(1.24, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-16.13%, 0, 0) scale3d(1.2, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-8.6%, 0, 0) scale3d(1.17, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.57%, 0, 0) scale3d(1.14, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.12%, 0, 0) scale3d(1.11, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(5.58%, 0, 0) scale3d(1.09, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(7.95%, 0, 0) scale3d(1.07, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.37%, 0, 0) scale3d(1.05, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(9.96%, 0, 0) scale3d(1.04, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.87%, 0, 0) scale3d(1.03, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.22%, 0, 0) scale3d(1.02, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(8.15%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(6.78%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(5.27%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(3.73%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(1.11%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopInRight",
+    "categories": [
+      "swoop",
+      "entrance",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0) scale3d(1.5, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(80.75%, 0, 0) scale3d(1.44, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(63.78%, 0, 0) scale3d(1.38, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(48.97%, 0, 0) scale3d(1.33, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(36.18%, 0, 0) scale3d(1.28, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(25.28%, 0, 0) scale3d(1.24, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(16.13%, 0, 0) scale3d(1.2, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(8.6%, 0, 0) scale3d(1.17, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.57%, 0, 0) scale3d(1.14, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.12%, 0, 0) scale3d(1.11, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-5.58%, 0, 0) scale3d(1.09, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-7.95%, 0, 0) scale3d(1.07, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.37%, 0, 0) scale3d(1.05, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-9.96%, 0, 0) scale3d(1.04, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.87%, 0, 0) scale3d(1.03, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.22%, 0, 0) scale3d(1.02, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-8.15%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-6.78%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-5.27%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-3.73%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-1.11%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-0.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rotateInDownLeft",
+    "categories": [
+      "rotating",
+      "entrance",
+      "rotate",
+      "down",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "left bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateInUpRight",
+    "categories": [
+      "rotating",
+      "entrance",
+      "rotate",
+      "up",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -90deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "right bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateInUpLeft",
+    "categories": [
+      "rotating",
+      "entrance",
+      "rotate",
+      "up",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "left bottom"
+      }
+    ]
+  },
+  {
+    "name": "rotateIn",
+    "categories": [
+      "rotating",
+      "entrance",
+      "rotate"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, -200deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "center"
+      }
+    ]
+  },
+  {
+    "name": "rotateInDownRight",
+    "categories": [
+      "rotating",
+      "entrance",
+      "rotate",
+      "down",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "rotate3d(0, 0, 1, 45deg)"
+          },
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "property": "transform-origin",
+        "value": "right bottom"
+      }
+    ]
+  },
+  {
+    "name": "backOutUp",
+    "categories": [
+      "back",
+      "exit",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(-700px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backOutRight",
+    "categories": [
+      "back",
+      "exit",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(2000px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backOutDown",
+    "categories": [
+      "back",
+      "exit",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateY(700px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "backOutLeft",
+    "categories": [
+      "back",
+      "exit",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "0%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "scale(1)"
+          },
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "name": "20%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(0px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      },
+      {
+        "name": "100%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translateX(-2000px) scale(0.7)"
+          },
+          {
+            "property": "opacity",
+            "value": "0.7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopOutRight",
+    "categories": [
+      "swoop",
+      "exit",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-0.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-1.11%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-3.73%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-5.27%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-6.78%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-8.15%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.22%, 0, 0) scale3d(1.02, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.87%, 0, 0) scale3d(1.03, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.96%, 0, 0) scale3d(1.04, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-9.37%, 0, 0) scale3d(1.05, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-7.95%, 0, 0) scale3d(1.07, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-5.58%, 0, 0) scale3d(1.09, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.12%, 0, 0) scale3d(1.11, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.57%, 0, 0) scale3d(1.14, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(8.6%, 0, 0) scale3d(1.17, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(16.13%, 0, 0) scale3d(1.2, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(25.28%, 0, 0) scale3d(1.24, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(36.18%, 0, 0) scale3d(1.28, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(48.97%, 0, 0) scale3d(1.33, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(63.78%, 0, 0) scale3d(1.38, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(80.75%, 0, 0) scale3d(1.44, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0) scale3d(1.5, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopOutDown",
+    "categories": [
+      "swoop",
+      "exit",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -0.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -1.11%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -3.73%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -5.27%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -6.78%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -8.15%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.22%, 0) scale3d(1, 1.02, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.87%, 0) scale3d(1, 1.03, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.96%, 0) scale3d(1, 1.04, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -9.37%, 0) scale3d(1, 1.05, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -7.95%, 0) scale3d(1, 1.07, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -5.58%, 0) scale3d(1, 1.09, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.12%, 0) scale3d(1, 1.11, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.57%, 0) scale3d(1, 1.14, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 8.6%, 0) scale3d(1, 1.17, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 16.13%, 0) scale3d(1, 1.2, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 25.28%, 0) scale3d(1, 1.24, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 36.18%, 0) scale3d(1, 1.28, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 48.97%, 0) scale3d(1, 1.33, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 63.78%, 0) scale3d(1, 1.38, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 80.75%, 0) scale3d(1, 1.44, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0) scale3d(1, 1.5, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopOutUp",
+    "categories": [
+      "swoop",
+      "exit",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 1.11%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.3%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 3.73%, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 5.27%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 6.78%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 8.15%, 0) scale3d(1, 1.01, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.22%, 0) scale3d(1, 1.02, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.87%, 0) scale3d(1, 1.03, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.96%, 0) scale3d(1, 1.04, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 9.37%, 0) scale3d(1, 1.05, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 7.95%, 0) scale3d(1, 1.07, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 5.58%, 0) scale3d(1, 1.09, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2.12%, 0) scale3d(1, 1.11, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2.57%, 0) scale3d(1, 1.14, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -8.6%, 0) scale3d(1, 1.17, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -16.13%, 0) scale3d(1, 1.2, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -25.28%, 0) scale3d(1, 1.24, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -36.18%, 0) scale3d(1, 1.28, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -48.97%, 0) scale3d(1, 1.33, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -63.78%, 0) scale3d(1, 1.38, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, -80.75%, 0) scale3d(1, 1.44, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0) scale3d(1, 1.5, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swoopOutLeft",
+    "categories": [
+      "swoop",
+      "exit",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "4%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(0.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "9%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(1.11%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "13%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.3%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "17%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(3.73%, 0, 0) scale3d(1, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "22%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(5.27%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "26%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(6.78%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "30%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(8.15%, 0, 0) scale3d(1.01, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "35%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.22%, 0, 0) scale3d(1.02, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "39%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.87%, 0, 0) scale3d(1.03, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "43%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.96%, 0, 0) scale3d(1.04, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "48%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(9.37%, 0, 0) scale3d(1.05, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "52%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(7.95%, 0, 0) scale3d(1.07, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "57%",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(5.58%, 0, 0) scale3d(1.09, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "61%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(2.12%, 0, 0) scale3d(1.11, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "65%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-2.57%, 0, 0) scale3d(1.14, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "70%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-8.6%, 0, 0) scale3d(1.17, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "74%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-16.13%, 0, 0) scale3d(1.2, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "78%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-25.28%, 0, 0) scale3d(1.24, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "83%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-36.18%, 0, 0) scale3d(1.28, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "87%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-48.97%, 0, 0) scale3d(1.33, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "91%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-63.78%, 0, 0) scale3d(1.38, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "96%",
+        "declarations": [
+          {
+            "property": "transform",
+            "value": "translate3d(-80.75%, 0, 0) scale3d(1.44, 1, 1)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0) scale3d(1.5, 1, 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInLeft",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInTopRight",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "top",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, -100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInUp",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "up"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInRightBig",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "right",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(2000px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInBottomRight",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "bottom",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInTopLeft",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "top",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, -100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInDownBig",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "down",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -2000px, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInBottomLeft",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "bottom",
+      "left"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-100%, 100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInLeftBig",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "left",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(-2000px, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeIn",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInUpBig",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "up",
+      "big"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 2000px, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInDown",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "down"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, -100%, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "fadeInRight",
+    "categories": [
+      "fading",
+      "entrance",
+      "fade",
+      "right"
+    ],
+    "keyframes": [
+      {
+        "name": "from",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "0"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(100%, 0, 0)"
+          }
+        ]
+      },
+      {
+        "name": "to",
+        "declarations": [
+          {
+            "property": "opacity",
+            "value": "1"
+          },
+          {
+            "property": "transform",
+            "value": "translate3d(0, 0, 0)"
+          }
+        ]
+      }
+    ]
+  }
+]

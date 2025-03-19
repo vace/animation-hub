@@ -1,0 +1,36 @@
+{
+  "name": "rotate-left",
+  "categories": [
+    "basic",
+    "rotate",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(360deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        }
+      ]
+    }
+  ]
+}

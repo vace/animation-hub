@@ -1,0 +1,52 @@
+{
+  "name": "tracking-out-contract-bck-bottom",
+  "categories": [
+    "text",
+    "tracking",
+    "exit",
+    "contract",
+    "back",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "-.5em"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(-500px) translateY(300px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

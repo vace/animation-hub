@@ -1,0 +1,14 @@
+@keyframes scale-up-ver-bottom {
+  0% {
+    transform: scaleY(.4);
+    transform-origin: 0% 100%;
+  }
+  to {
+    transform: scaleY(1);
+    transform-origin: 0% 100%;
+  }
+}
+
+.scale-up-ver-bottom {
+  animation-name: scale-up-ver-bottom;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "shake-vertical",
+  "categories": [
+    "attention",
+    "shake",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "10%, 30%, 50%, 70%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-8px)"
+        }
+      ]
+    },
+    {
+      "name": "20%, 40%, 60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(8px)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(6.4px)"
+        }
+      ]
+    },
+    {
+      "name": "90%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-6.4px)"
+        }
+      ]
+    }
+  ]
+}

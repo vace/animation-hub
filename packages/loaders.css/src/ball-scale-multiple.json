@@ -1,0 +1,146 @@
+{
+  "name": "ball-scale-multiple",
+  "animations": [
+    {
+      "name": "ball-scale-multiple",
+      "categories": [
+        "loader",
+        "ball",
+        "scale",
+        "multiple"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0)"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "5%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-multiple"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(-30px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-multiple>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.4s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-multiple>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.2s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale-multiple",
+      "selectors": [
+        ".ball-scale-multiple>div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "left",
+          "value": "-30px"
+        },
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "margin",
+          "value": "0"
+        },
+        {
+          "property": "width",
+          "value": "60px"
+        },
+        {
+          "property": "height",
+          "value": "60px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale-multiple 1s 0s linear infinite"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-scale-multiple\"><div></div><div></div><div></div></div>"
+}

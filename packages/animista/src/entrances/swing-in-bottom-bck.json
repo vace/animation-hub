@@ -1,0 +1,45 @@
+{
+  "name": "swing-in-bottom-bck",
+  "categories": [
+    "entrance",
+    "swing",
+    "bottom",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(-70deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

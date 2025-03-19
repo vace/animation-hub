@@ -1,0 +1,29 @@
+{
+  "name": "slide-bck-right",
+  "categories": [
+    "basic",
+    "slide",
+    "back",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-400px) translateX(200px)"
+        }
+      ]
+    }
+  ]
+}

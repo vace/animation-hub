@@ -1,0 +1,30 @@
+{
+  "name": "slide-rotate-hor-top",
+  "categories": [
+    "basic",
+    "slide",
+    "rotate",
+    "horizontal",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-150px) rotateX(-90deg)"
+        }
+      ]
+    }
+  ]
+}

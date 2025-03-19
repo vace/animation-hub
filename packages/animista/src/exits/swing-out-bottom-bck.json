@@ -1,0 +1,45 @@
+{
+  "name": "swing-out-bottom-bck",
+  "categories": [
+    "exit",
+    "swing",
+    "bottom",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(100deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

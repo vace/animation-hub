@@ -1,0 +1,297 @@
+{
+  "name": "grid",
+  "animations": [
+    {
+      "name": "lds-grid",
+      "categories": [
+        "spinner",
+        "grid",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "0.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid",
+        ".lds-grid div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-grid",
+      "selectors": [
+        ".lds-grid div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "16px"
+        },
+        {
+          "property": "height",
+          "value": "16px"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        },
+        {
+          "property": "animation",
+          "value": "lds-grid 1.2s linear infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "8px"
+        },
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "8px"
+        },
+        {
+          "property": "left",
+          "value": "32px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.4s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "8px"
+        },
+        {
+          "property": "left",
+          "value": "56px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.8s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "32px"
+        },
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.4s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "32px"
+        },
+        {
+          "property": "left",
+          "value": "32px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.8s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "32px"
+        },
+        {
+          "property": "left",
+          "value": "56px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-1.2s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "56px"
+        },
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.8s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "56px"
+        },
+        {
+          "property": "left",
+          "value": "32px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-1.2s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-grid div:nth-child(9)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "56px"
+        },
+        {
+          "property": "left",
+          "value": "56px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-1.6s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-grid\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

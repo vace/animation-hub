@@ -1,0 +1,272 @@
+{
+  "name": "pacman",
+  "animations": [
+    {
+      "name": "rotate_pacman_half_up",
+      "categories": [
+        "loader",
+        "pacman",
+        "rotate",
+        "half",
+        "up"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(270deg)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rotate_pacman_half_down",
+      "categories": [
+        "loader",
+        "pacman",
+        "rotate",
+        "half",
+        "down"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(90deg)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pacman-balls",
+      "categories": [
+        "loader",
+        "pacman",
+        "balls"
+      ],
+      "keyframes": [
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": ".7"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-100px, -6.25px)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".pacman>div:first-of-type",
+        ".pacman>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "0"
+        },
+        {
+          "property": "height",
+          "value": "0"
+        },
+        {
+          "property": "border-right",
+          "value": "25px solid transparent"
+        },
+        {
+          "property": "border-top",
+          "value": "25px solid #fff"
+        },
+        {
+          "property": "border-left",
+          "value": "25px solid #fff"
+        },
+        {
+          "property": "border-bottom",
+          "value": "25px solid #fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "25px"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "left",
+          "value": "-30px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".pacman"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "pacman-balls",
+      "selectors": [
+        ".pacman>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "pacman-balls 1s -.66s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "pacman-balls",
+      "selectors": [
+        ".pacman>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "pacman-balls 1s -.33s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "pacman-balls",
+      "selectors": [
+        ".pacman>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "pacman-balls 1s 0s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "rotate_pacman_half_up",
+      "selectors": [
+        ".pacman>div:first-of-type"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "rotate_pacman_half_up .5s 0s infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "rotate_pacman_half_down",
+      "selectors": [
+        ".pacman>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "rotate_pacman_half_down .5s 0s infinite"
+        },
+        {
+          "property": "margin-top",
+          "value": "-50px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".pacman>div:nth-child(3)",
+        ".pacman>div:nth-child(4)",
+        ".pacman>div:nth-child(5)",
+        ".pacman>div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "width",
+          "value": "10px"
+        },
+        {
+          "property": "height",
+          "value": "10px"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "transform",
+          "value": "translate(0, -6.25px)"
+        },
+        {
+          "property": "top",
+          "value": "25px"
+        },
+        {
+          "property": "left",
+          "value": "70px"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"pacman\"><div></div><div></div><div></div><div></div><div></div></div>"
+}

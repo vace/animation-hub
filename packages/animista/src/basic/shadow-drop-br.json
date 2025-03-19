@@ -1,0 +1,29 @@
+{
+  "name": "shadow-drop-br",
+  "categories": [
+    "basic",
+    "shadow",
+    "drop",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "0 0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "12px 12px 20px -12px rgba(0, 0, 0, .35)"
+        }
+      ]
+    }
+  ]
+}

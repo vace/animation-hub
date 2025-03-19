@@ -1,0 +1,37 @@
+{
+  "name": "slide-out-fwd-bottom",
+  "categories": [
+    "exit",
+    "slide",
+    "forward",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(600px) translateY(300px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

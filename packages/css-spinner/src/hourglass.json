@@ -1,0 +1,141 @@
+{
+  "name": "hourglass",
+  "animations": [
+    {
+      "name": "lds-hourglass",
+      "categories": [
+        "spinner",
+        "hourglass",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            },
+            {
+              "property": "animation-timing-function",
+              "value": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(900deg)"
+            },
+            {
+              "property": "animation-timing-function",
+              "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(1800deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-hourglass",
+        ".lds-hourglass:after"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-hourglass"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-hourglass",
+      "selectors": [
+        ".lds-hourglass:after"
+      ],
+      "declarations": [
+        {
+          "property": "content",
+          "value": "\" \""
+        },
+        {
+          "property": "display",
+          "value": "block"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "width",
+          "value": "0"
+        },
+        {
+          "property": "height",
+          "value": "0"
+        },
+        {
+          "property": "margin",
+          "value": "8px"
+        },
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        },
+        {
+          "property": "border",
+          "value": "32px solid currentColor"
+        },
+        {
+          "property": "border-color",
+          "value": "currentColor transparent currentColor transparent"
+        },
+        {
+          "property": "animation",
+          "value": "lds-hourglass 1.2s infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-hourglass\"></div>"
+}

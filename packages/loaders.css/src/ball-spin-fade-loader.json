@@ -1,0 +1,275 @@
+{
+  "name": "ball-spin-fade-loader",
+  "animations": [
+    {
+      "name": "ball-spin-fade-loader",
+      "categories": [
+        "loader",
+        "ball",
+        "spin",
+        "fade"
+      ],
+      "keyframes": [
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": ".3"
+            },
+            {
+              "property": "transform",
+              "value": "scale(.4)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            },
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-spin-fade-loader"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "top",
+          "value": "-10px"
+        },
+        {
+          "property": "left",
+          "value": "-10px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-spin-fade-loader>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "25px"
+        },
+        {
+          "property": "left",
+          "value": "0"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.96s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "17.05px"
+        },
+        {
+          "property": "left",
+          "value": "17.05px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.84s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "25px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.72s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-17.05px"
+        },
+        {
+          "property": "left",
+          "value": "17.05px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.6s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-25px"
+        },
+        {
+          "property": "left",
+          "value": "0"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.48s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-17.05px"
+        },
+        {
+          "property": "left",
+          "value": "-17.05px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.36s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "-25px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.24s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-spin-fade-loader",
+      "selectors": [
+        ".ball-spin-fade-loader>div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "17.05px"
+        },
+        {
+          "property": "left",
+          "value": "-17.05px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-spin-fade-loader 1s -.12s infinite linear"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-spin-fade-loader\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

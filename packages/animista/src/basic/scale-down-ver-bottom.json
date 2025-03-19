@@ -1,0 +1,38 @@
+{
+  "name": "scale-down-ver-bottom",
+  "categories": [
+    "basic",
+    "scale",
+    "down",
+    "vertical",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleY(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleY(.3)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        }
+      ]
+    }
+  ]
+}

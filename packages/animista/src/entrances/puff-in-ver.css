@@ -1,0 +1,16 @@
+@keyframes puff-in-ver {
+  0% {
+    transform: scaleY(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  to {
+    transform: scaleY(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.puff-in-ver {
+  animation-name: puff-in-ver;
+}

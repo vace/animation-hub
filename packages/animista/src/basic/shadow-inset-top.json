@@ -1,0 +1,29 @@
+{
+  "name": "shadow-inset-top",
+  "categories": [
+    "basic",
+    "shadow",
+    "inset",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "inset 0 0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "inset 0 6px 14px -6px rgba(0, 0, 0, .5)"
+        }
+      ]
+    }
+  ]
+}

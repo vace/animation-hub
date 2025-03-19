@@ -1,0 +1,73 @@
+{
+  "name": "rubberBand",
+  "categories": [
+    "attention",
+    "rubber",
+    "band"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.25, 0.75, 1)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.75, 1.25, 1)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.15, 0.85, 1)"
+        }
+      ]
+    },
+    {
+      "name": "65%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.95, 1.05, 1)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.05, 0.95, 1)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    }
+  ]
+}

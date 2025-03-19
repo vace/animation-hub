@@ -1,0 +1,28 @@
+{
+  "name": "slide-right",
+  "categories": [
+    "basic",
+    "slide",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(100px)"
+        }
+      ]
+    }
+  ]
+}

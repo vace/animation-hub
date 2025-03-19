@@ -1,0 +1,27 @@
+{
+  "name": "flicker-3",
+  "categories": [
+    "attention",
+    "flicker"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, 32.98%, 34.02%, 34.98%, 35.92%, 38.98%, 39.82%, 83.98%, 84.92%, to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "33%, 34%, 35%, 35.9%, 39%, 39.8%, 84%, 84.9%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

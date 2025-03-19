@@ -1,0 +1,28 @@
+{
+  "name": "rotate-center",
+  "categories": [
+    "basic",
+    "rotate",
+    "center"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(360deg)"
+        }
+      ]
+    }
+  ]
+}

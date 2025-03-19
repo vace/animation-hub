@@ -1,0 +1,37 @@
+{
+  "name": "swing-bottom-bck",
+  "categories": [
+    "basic",
+    "swing",
+    "bottom",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom"
+        }
+      ]
+    }
+  ]
+}

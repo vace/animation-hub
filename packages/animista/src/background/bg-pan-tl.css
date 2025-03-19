@@ -1,0 +1,12 @@
+@keyframes bg-pan-tl {
+  0% {
+    background-position: 100% 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.bg-pan-tl {
+  animation-name: bg-pan-tl;
+}

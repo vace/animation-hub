@@ -1,0 +1,46 @@
+{
+  "name": "tracking-in-contract",
+  "categories": [
+    "text",
+    "tracking",
+    "entrance",
+    "contract"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "1em"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": ".6"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "normal"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

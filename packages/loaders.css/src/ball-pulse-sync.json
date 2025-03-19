@@ -1,0 +1,122 @@
+{
+  "name": "ball-pulse-sync",
+  "animations": [
+    {
+      "name": "ball-pulse-sync",
+      "categories": [
+        "loader",
+        "ball",
+        "pulse",
+        "sync"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(10px)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(-10px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "ball-pulse-sync",
+      "selectors": [
+        ".ball-pulse-sync>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse-sync .6s -.14s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse-sync",
+      "selectors": [
+        ".ball-pulse-sync>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse-sync .6s -70ms infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse-sync",
+      "selectors": [
+        ".ball-pulse-sync>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse-sync .6s 0s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-pulse-sync>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-pulse-sync\"><div></div><div></div><div></div></div>"
+}

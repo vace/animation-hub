@@ -1,0 +1,28 @@
+{
+  "name": "text-blur-out",
+  "categories": [
+    "text",
+    "blur",
+    "exit"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "filter",
+          "value": "blur(.01)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "filter",
+          "value": "blur(12px) opacity(0%)"
+        }
+      ]
+    }
+  ]
+}

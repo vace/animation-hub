@@ -1,0 +1,12 @@
+@keyframes flip-vertical-left {
+  0% {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+
+.flip-vertical-left {
+  animation-name: flip-vertical-left;
+}

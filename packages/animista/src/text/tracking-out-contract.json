@@ -1,0 +1,33 @@
+{
+  "name": "tracking-out-contract",
+  "categories": [
+    "text",
+    "tracking",
+    "exit",
+    "contract"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, 50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "-.5em"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

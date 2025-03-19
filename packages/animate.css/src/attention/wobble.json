@@ -1,0 +1,72 @@
+{
+  "name": "wobble",
+  "categories": [
+    "attention",
+    "wobble"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "15%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)"
+        }
+      ]
+    },
+    {
+      "name": "45%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

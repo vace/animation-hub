@@ -1,0 +1,14 @@
+@keyframes slide-out-bl {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(1000px) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+.slide-out-bl {
+  animation-name: slide-out-bl;
+}

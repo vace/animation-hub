@@ -1,0 +1,14 @@
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  to {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  animation-name: text-focus-in;
+}

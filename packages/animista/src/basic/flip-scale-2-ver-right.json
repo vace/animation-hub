@@ -1,0 +1,51 @@
+{
+  "name": "flip-scale-2-ver-right",
+  "categories": [
+    "basic",
+    "flip",
+    "scale",
+    "vertical",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotateY(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 50%"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(50%) rotateY(-90deg) scale(2)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(100%) rotateY(-180deg) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        }
+      ]
+    }
+  ]
+}

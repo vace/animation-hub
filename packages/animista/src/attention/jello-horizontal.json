@@ -1,0 +1,64 @@
+{
+  "name": "jello-horizontal",
+  "categories": [
+    "attention",
+    "jello",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.25, .75, 1)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(.75, 1.25, 1)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.15, .85, 1)"
+        }
+      ]
+    },
+    {
+      "name": "65%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(.95, 1.05, 1)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.05, .95, 1)"
+        }
+      ]
+    }
+  ]
+}

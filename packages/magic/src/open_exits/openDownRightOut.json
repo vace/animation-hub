@@ -1,0 +1,54 @@
+{
+  "name": "openDownRightOut",
+  "categories": [
+    "open",
+    "exit",
+    "down",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom right"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(0deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom right"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(110deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

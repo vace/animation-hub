@@ -1,0 +1,33 @@
+{
+  "name": "blur-out-contract",
+  "categories": [
+    "text",
+    "blur",
+    "exit",
+    "contract"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "filter",
+          "value": "blur(.01)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "-.5em"
+        },
+        {
+          "property": "filter",
+          "value": "blur(12px) opacity(0%)"
+        }
+      ]
+    }
+  ]
+}

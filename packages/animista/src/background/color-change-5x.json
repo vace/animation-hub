@@ -1,0 +1,62 @@
+{
+  "name": "color-change-5x",
+  "categories": [
+    "background",
+    "color",
+    "change",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#19dcea"
+        }
+      ]
+    },
+    {
+      "name": "25%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#b22cff"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#ea2222"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#f5be10"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#3bd80d"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-direction",
+      "value": "alternate"
+    }
+  ]
+}

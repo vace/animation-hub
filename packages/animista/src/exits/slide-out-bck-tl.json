@@ -1,0 +1,37 @@
+{
+  "name": "slide-out-bck-tl",
+  "categories": [
+    "exit",
+    "slide",
+    "back",
+    "top-left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0) translateX(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-1100px) translateY(-1000px) translateX(-1000px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

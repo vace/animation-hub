@@ -1,0 +1,94 @@
+{
+  "name": "ball-beat",
+  "animations": [
+    {
+      "name": "ball-beat",
+      "categories": [
+        "loader",
+        "ball",
+        "beat"
+      ],
+      "keyframes": [
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": ".2"
+            },
+            {
+              "property": "transform",
+              "value": "scale(.75)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            },
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "ball-beat",
+      "selectors": [
+        ".ball-beat>div"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "animation",
+          "value": "ball-beat .7s 0s infinite linear"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-beat>div:nth-child(2n-1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-0.35s !important"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-beat\"><div></div><div></div><div></div></div>"
+}

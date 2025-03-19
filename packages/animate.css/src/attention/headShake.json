@@ -1,0 +1,70 @@
+{
+  "name": "headShake",
+  "categories": [
+    "attention",
+    "head",
+    "shake"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "6.5%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-6px) rotateY(-9deg)"
+        }
+      ]
+    },
+    {
+      "name": "18.5%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(5px) rotateY(7deg)"
+        }
+      ]
+    },
+    {
+      "name": "31.5%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-3px) rotateY(-5deg)"
+        }
+      ]
+    },
+    {
+      "name": "43.5%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(2px) rotateY(3deg)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0)"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-timing-function",
+      "value": "ease-in-out"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pulsate-bck",
+  "categories": [
+    "attention",
+    "pulsate",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.9)"
+        }
+      ]
+    }
+  ]
+}

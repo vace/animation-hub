@@ -1,0 +1,38 @@
+{
+  "name": "fadeInDownBig",
+  "categories": [
+    "fading",
+    "entrance",
+    "fade",
+    "down",
+    "big"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, -2000px, 0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

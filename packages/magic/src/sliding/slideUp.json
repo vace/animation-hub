@@ -1,0 +1,37 @@
+{
+  "name": "slideUp",
+  "categories": [
+    "sliding",
+    "slide",
+    "up"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 0"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(0%)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 0"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(-100%)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "animation-hub",
+  "version": "0.0.1",
+  "description": "AnimationHub provides parsed JSON metadata and ready-to-use CSS code snippets, designed for cross-platform integration in low-code tools, design systems, and frontend frameworks.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vace/animation-hub"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "publish": "pnpm -r publish"
+  },
+  "keywords": [
+    "css",
+    "animation",
+    "toolkit",
+    "library",
+    "animate.css",
+    "animista",
+    "magic",
+    "loaders.css",
+    "css-spinner"
+  ],
+  "author": "Vace(i@ahmq.net)",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@types/css": "^0.0.38",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.13.10",
+    "css": "^3.0.0",
+    "lodash-es": "^4.17.21",
+    "unbuild": "^3.5.0"
+  }
+}

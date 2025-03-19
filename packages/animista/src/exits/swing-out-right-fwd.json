@@ -1,0 +1,45 @@
+{
+  "name": "swing-out-right-fwd",
+  "categories": [
+    "exit",
+    "swing",
+    "right",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "right"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(70deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "right"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

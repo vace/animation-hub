@@ -1,0 +1,42 @@
+{
+  "name": "pulse",
+  "categories": [
+    "attention",
+    "pulse"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.05, 1.05, 1.05)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-timing-function",
+      "value": "ease-in-out"
+    }
+  ]
+}

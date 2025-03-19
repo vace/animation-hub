@@ -1,0 +1,12 @@
+@keyframes blink-1 {
+  0%, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.blink-1 {
+  animation-name: blink-1;
+}

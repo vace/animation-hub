@@ -1,0 +1,39 @@
+{
+  "name": "rotate-scale-up-ver",
+  "categories": [
+    "basic",
+    "rotate",
+    "scale",
+    "up",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(2) rotateY(180deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateY(360deg)"
+        }
+      ]
+    }
+  ]
+}

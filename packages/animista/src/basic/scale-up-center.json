@@ -1,0 +1,29 @@
+{
+  "name": "scale-up-center",
+  "categories": [
+    "basic",
+    "scale",
+    "up",
+    "center"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.5)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        }
+      ]
+    }
+  ]
+}

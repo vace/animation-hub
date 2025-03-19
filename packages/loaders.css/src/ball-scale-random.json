@@ -1,0 +1,137 @@
+{
+  "name": "ball-scale-random",
+  "animations": [
+    {
+      "name": "ball-scale",
+      "categories": [
+        "loader",
+        "ball",
+        "scale",
+        "random"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-random"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "37px"
+        },
+        {
+          "property": "height",
+          "value": "40px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale",
+      "selectors": [
+        ".ball-scale-random>div"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "height",
+          "value": "30px"
+        },
+        {
+          "property": "width",
+          "value": "30px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale 1s 0s ease-in-out infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale",
+      "selectors": [
+        ".ball-scale-random>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "margin-left",
+          "value": "-7px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale 1s .2s ease-in-out infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale",
+      "selectors": [
+        ".ball-scale-random>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "margin-left",
+          "value": "-2px"
+        },
+        {
+          "property": "margin-top",
+          "value": "9px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale 1s .5s ease-in-out infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-scale-random\"><div></div><div></div><div></div></div>"
+}

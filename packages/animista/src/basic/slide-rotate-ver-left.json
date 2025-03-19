@@ -1,0 +1,30 @@
+{
+  "name": "slide-rotate-ver-left",
+  "categories": [
+    "basic",
+    "slide",
+    "rotate",
+    "vertical",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-150px) rotateY(90deg)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "fadeInTopRight",
+  "categories": [
+    "fading",
+    "entrance",
+    "fade",
+    "top",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(100%, -100%, 0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

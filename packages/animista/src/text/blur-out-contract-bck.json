@@ -1,0 +1,42 @@
+{
+  "name": "blur-out-contract-bck",
+  "categories": [
+    "text",
+    "blur",
+    "exit",
+    "contract",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(.01)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "-.5em"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(-500px)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(12px) opacity(0%)"
+        }
+      ]
+    }
+  ]
+}

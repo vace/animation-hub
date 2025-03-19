@@ -1,0 +1,69 @@
+{
+  "name": "wobble-hor-bottom",
+  "categories": [
+    "attention",
+    "wobble",
+    "horizontal",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0%)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        }
+      ]
+    },
+    {
+      "name": "15%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-30px) rotate(-6deg)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(15px) rotate(6deg)"
+        }
+      ]
+    },
+    {
+      "name": "45%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-15px) rotate(-3.6deg)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(9px) rotate(2.4deg)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-6px) rotate(-1.2deg)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "rotate-out-tl",
+  "categories": [
+    "exit",
+    "rotate",
+    "top-left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "top left"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-360deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "top left"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

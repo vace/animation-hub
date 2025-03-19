@@ -1,0 +1,117 @@
+{
+  "name": "dual-ring",
+  "animations": [
+    {
+      "name": "lds-dual-ring",
+      "categories": [
+        "spinner",
+        "dual",
+        "ring",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-dual-ring",
+        ".lds-dual-ring:after"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-dual-ring"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-dual-ring",
+      "selectors": [
+        ".lds-dual-ring:after"
+      ],
+      "declarations": [
+        {
+          "property": "content",
+          "value": "\" \""
+        },
+        {
+          "property": "display",
+          "value": "block"
+        },
+        {
+          "property": "width",
+          "value": "64px"
+        },
+        {
+          "property": "height",
+          "value": "64px"
+        },
+        {
+          "property": "margin",
+          "value": "8px"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "border",
+          "value": "6.4px solid currentColor"
+        },
+        {
+          "property": "border-color",
+          "value": "currentColor transparent currentColor transparent"
+        },
+        {
+          "property": "animation",
+          "value": "lds-dual-ring 1.2s linear infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-dual-ring\"></div>"
+}

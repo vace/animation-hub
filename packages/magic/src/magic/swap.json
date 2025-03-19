@@ -1,0 +1,44 @@
+{
+  "name": "swap",
+  "categories": [
+    "magic",
+    "swap"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0 100%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0, 0) translate(-700px, 0px)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 100%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1, 1) translate(0px, 0px)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

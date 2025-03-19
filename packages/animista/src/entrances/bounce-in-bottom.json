@@ -1,0 +1,96 @@
+{
+  "name": "bounce-in-bottom",
+  "categories": [
+    "entrance",
+    "bounce",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(500px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "38%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "55%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(65px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "72%, 90%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "81%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(28px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "95%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(8px)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    }
+  ]
+}

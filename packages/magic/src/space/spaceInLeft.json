@@ -1,0 +1,45 @@
+{
+  "name": "spaceInLeft",
+  "categories": [
+    "space",
+    "entrance",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.2) translate(-200%, 0%)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1) translate(0%, 0%)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

@@ -1,0 +1,16 @@
+@keyframes color-change-3x {
+  0% {
+    background: #19dcea;
+  }
+  50% {
+    background: #b22cff;
+  }
+  to {
+    background: #ea2222;
+  }
+}
+
+.color-change-3-x {
+  animation-direction: alternate;
+  animation-name: color-change-3x;
+}

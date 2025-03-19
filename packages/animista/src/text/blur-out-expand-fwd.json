@@ -1,0 +1,42 @@
+{
+  "name": "blur-out-expand-fwd",
+  "categories": [
+    "text",
+    "blur",
+    "exit",
+    "expand",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(.01)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "1em"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(300px)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(12px) opacity(0%)"
+        }
+      ]
+    }
+  ]
+}

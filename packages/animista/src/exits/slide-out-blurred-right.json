@@ -1,0 +1,53 @@
+{
+  "name": "slide-out-blurred-right",
+  "categories": [
+    "exit",
+    "slide",
+    "blurred",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) scaleY(1) scaleX(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(1000px) scaleX(2) scaleY(.2)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(40px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

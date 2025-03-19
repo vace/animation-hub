@@ -1,0 +1,236 @@
+{
+  "name": "ellipsis",
+  "animations": [
+    {
+      "name": "lds-ellipsis1",
+      "categories": [
+        "spinner",
+        "ellipsis",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lds-ellipsis3",
+      "categories": [
+        "spinner",
+        "ellipsis",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lds-ellipsis2",
+      "categories": [
+        "spinner",
+        "ellipsis",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(24px, 0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ellipsis",
+        ".lds-ellipsis div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ellipsis"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ellipsis div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "top",
+          "value": "33.33333px"
+        },
+        {
+          "property": "width",
+          "value": "13.33333px"
+        },
+        {
+          "property": "height",
+          "value": "13.33333px"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "cubic-bezier(0, 1, 1, 0)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ellipsis1",
+      "selectors": [
+        ".lds-ellipsis div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ellipsis1 0.6s infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ellipsis2",
+      "selectors": [
+        ".lds-ellipsis div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ellipsis2 0.6s infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ellipsis2",
+      "selectors": [
+        ".lds-ellipsis div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "32px"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ellipsis2 0.6s infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ellipsis3",
+      "selectors": [
+        ".lds-ellipsis div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "56px"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ellipsis3 0.6s infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-ellipsis\"><div></div><div></div><div></div><div></div></div>"
+}

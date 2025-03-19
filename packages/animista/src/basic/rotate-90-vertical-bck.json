@@ -1,0 +1,29 @@
+{
+  "name": "rotate-90-vertical-bck",
+  "categories": [
+    "basic",
+    "rotate",
+    "vertical",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(-90deg)"
+        }
+      ]
+    }
+  ]
+}

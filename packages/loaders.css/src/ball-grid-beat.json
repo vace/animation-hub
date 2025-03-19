@@ -1,0 +1,273 @@
+{
+  "name": "ball-grid-beat",
+  "animations": [
+    {
+      "name": "ball-grid-beat",
+      "categories": [
+        "loader",
+        "ball",
+        "grid",
+        "beat"
+      ],
+      "keyframes": [
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": ".7"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "57px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".15s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.45s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-20ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".97s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".66s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.23s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".64s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.24s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.19s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.13s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".69s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.42s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".58s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.14s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".21s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.17s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-beat>div:nth-child(9)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.18s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".65s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-grid-beat",
+      "selectors": [
+        ".ball-grid-beat>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "float",
+          "value": "left"
+        },
+        {
+          "property": "animation-name",
+          "value": "ball-grid-beat"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-grid-beat\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

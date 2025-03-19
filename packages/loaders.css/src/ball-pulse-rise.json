@@ -1,0 +1,209 @@
+{
+  "name": "ball-pulse-rise",
+  "animations": [
+    {
+      "name": "ball-pulse-rise-even",
+      "categories": [
+        "loader",
+        "ball",
+        "pulse",
+        "rise",
+        "even"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1.1)"
+            }
+          ]
+        },
+        {
+          "name": "25%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(-30px)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.4)"
+            }
+          ]
+        },
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(30px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(0)"
+            },
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ball-pulse-rise-odd",
+      "categories": [
+        "loader",
+        "ball",
+        "pulse",
+        "rise",
+        "odd"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.4)"
+            }
+          ]
+        },
+        {
+          "name": "25%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(30px)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1.1)"
+            }
+          ]
+        },
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(-30px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(0)"
+            },
+            {
+              "property": "transform",
+              "value": "scale(.75)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-pulse-rise>div"
+      ],
+      "declarations": [
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1s"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "cubic-bezier(.15, .46, .9, .6)"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse-rise-even",
+      "selectors": [
+        ".ball-pulse-rise>div:nth-child(2n)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-name",
+          "value": "ball-pulse-rise-even"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse-rise-odd",
+      "selectors": [
+        ".ball-pulse-rise>div:nth-child(2n-1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-name",
+          "value": "ball-pulse-rise-odd"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-pulse-rise\"><div></div><div></div><div></div><div></div><div></div></div>"
+}

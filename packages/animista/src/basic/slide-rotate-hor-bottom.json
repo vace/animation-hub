@@ -1,0 +1,30 @@
+{
+  "name": "slide-rotate-hor-bottom",
+  "categories": [
+    "basic",
+    "slide",
+    "rotate",
+    "horizontal",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(150px) rotateX(90deg)"
+        }
+      ]
+    }
+  ]
+}

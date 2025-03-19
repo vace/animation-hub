@@ -1,0 +1,39 @@
+{
+  "name": "flip-scale-down-ver",
+  "categories": [
+    "basic",
+    "flip",
+    "scale",
+    "down",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.4) rotateY(-90deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateY(-180deg)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "perspectiveUpReturn",
+  "categories": [
+    "perspective",
+    "up",
+    "return"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 0"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(180deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 0"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(0deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

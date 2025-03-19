@@ -1,0 +1,37 @@
+{
+  "name": "flip-out-diag-2-br",
+  "categories": [
+    "exit",
+    "flip",
+    "diag",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(1, 1, 0, 0deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 70deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

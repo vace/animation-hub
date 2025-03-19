@@ -1,0 +1,37 @@
+{
+  "name": "rotate-in-2-bck-ccw",
+  "categories": [
+    "entrance",
+    "rotate",
+    "back",
+    "ccw"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(200px) rotate(45deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) rotate(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

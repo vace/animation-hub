@@ -1,0 +1,12 @@
+@keyframes bg-pan-top {
+  0% {
+    background-position: 50% 100%;
+  }
+  to {
+    background-position: 50% 0;
+  }
+}
+
+.bg-pan-top {
+  animation-name: bg-pan-top;
+}

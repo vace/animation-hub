@@ -1,0 +1,51 @@
+{
+  "name": "flip-scale-2-hor-top",
+  "categories": [
+    "basic",
+    "flip",
+    "scale",
+    "horizontal",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-50%) rotateX(-90deg) scale(2)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-100%) rotateX(-180deg) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        }
+      ]
+    }
+  ]
+}

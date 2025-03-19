@@ -1,0 +1,33 @@
+{
+  "name": "slideInDown",
+  "categories": [
+    "sliding",
+    "entrance",
+    "slide",
+    "down"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, -100%, 0)"
+        },
+        {
+          "property": "visibility",
+          "value": "visible"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

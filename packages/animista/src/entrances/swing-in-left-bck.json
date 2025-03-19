@@ -1,0 +1,45 @@
+{
+  "name": "swing-in-left-bck",
+  "categories": [
+    "entrance",
+    "swing",
+    "left",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(-70deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

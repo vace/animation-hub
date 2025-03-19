@@ -1,0 +1,39 @@
+{
+  "name": "kenburns-bottom-left",
+  "categories": [
+    "background",
+    "ken",
+    "burns",
+    "kenburns",
+    "bottom",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) translate(0, 0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "16% 84%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1.25) translate(-20px, 15px)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left bottom"
+        }
+      ]
+    }
+  ]
+}

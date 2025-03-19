@@ -1,0 +1,51 @@
+{
+  "name": "tracking-in-contract-bck",
+  "categories": [
+    "text",
+    "tracking",
+    "entrance",
+    "contract",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "1em"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(400px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": ".6"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

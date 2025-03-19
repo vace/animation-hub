@@ -1,0 +1,37 @@
+{
+  "name": "flip-2-ver-left-1",
+  "categories": [
+    "basic",
+    "flip",
+    "vertical",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotateY(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-100%) rotateY(180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 0%"
+        }
+      ]
+    }
+  ]
+}

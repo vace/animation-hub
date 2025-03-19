@@ -1,0 +1,68 @@
+@keyframes ball-pulse-rise-even {
+  0% {
+    transform: scale(1.1)
+  }
+
+  25% {
+    transform: translateY(-30px)
+  }
+
+  50% {
+    transform: scale(.4)
+  }
+
+  75% {
+    transform: translateY(30px)
+  }
+
+  100% {
+    transform: translateY(0);
+    transform: scale(1)
+  }
+}
+
+@keyframes ball-pulse-rise-odd {
+  0% {
+    transform: scale(.4)
+  }
+
+  25% {
+    transform: translateY(30px)
+  }
+
+  50% {
+    transform: scale(1.1)
+  }
+
+  75% {
+    transform: translateY(-30px)
+  }
+
+  100% {
+    transform: translateY(0);
+    transform: scale(.75)
+  }
+}
+
+
+.ball-pulse-rise>div {
+  height: 15px;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #fff;
+  margin: 2px;
+  width: 15px;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.15, .46, .9, .6);
+  animation-iteration-count: infinite;
+  animation-delay: 0
+}
+
+.ball-pulse-rise>div:nth-child(2n) {
+  animation-name: ball-pulse-rise-even
+}
+
+.ball-pulse-rise>div:nth-child(2n-1) {
+  animation-name: ball-pulse-rise-odd
+}

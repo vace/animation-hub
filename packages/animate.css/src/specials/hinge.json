@@ -1,0 +1,67 @@
+{
+  "name": "hinge",
+  "categories": [
+    "specials",
+    "hinge"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "20%, 60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, 80deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "40%, 80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, 60deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 700px, 0)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "transform-origin",
+      "value": "top left"
+    }
+  ]
+}

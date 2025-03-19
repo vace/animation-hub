@@ -1,0 +1,33 @@
+{
+  "name": "slideOutDown",
+  "categories": [
+    "sliding",
+    "exit",
+    "slide",
+    "down"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "visibility",
+          "value": "hidden"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 100%, 0)"
+        }
+      ]
+    }
+  ]
+}

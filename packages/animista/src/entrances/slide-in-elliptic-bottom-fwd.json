@@ -1,0 +1,46 @@
+{
+  "name": "slide-in-elliptic-bottom-fwd",
+  "categories": [
+    "entrance",
+    "slide",
+    "elliptic",
+    "bottom",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(600px) rotateX(30deg) scale(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% -1400px"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

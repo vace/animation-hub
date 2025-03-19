@@ -1,0 +1,226 @@
+{
+  "name": "heart",
+  "animations": [
+    {
+      "name": "lds-heart",
+      "categories": [
+        "spinner",
+        "heart",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0.95)"
+            }
+          ]
+        },
+        {
+          "name": "5%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1.1)"
+            }
+          ]
+        },
+        {
+          "name": "39%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0.85)"
+            }
+          ]
+        },
+        {
+          "name": "45%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        },
+        {
+          "name": "60%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0.95)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(0.9)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-heart",
+        ".lds-heart div",
+        ".lds-heart div:after",
+        ".lds-heart div:before"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-heart"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(45deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "40px 40px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-heart",
+      "selectors": [
+        ".lds-heart div"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "28px"
+        },
+        {
+          "property": "left",
+          "value": "28px"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "32px"
+        },
+        {
+          "property": "height",
+          "value": "32px"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        },
+        {
+          "property": "animation",
+          "value": "lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-heart div:after",
+        ".lds-heart div:before"
+      ],
+      "declarations": [
+        {
+          "property": "content",
+          "value": "\" \""
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "display",
+          "value": "block"
+        },
+        {
+          "property": "width",
+          "value": "32px"
+        },
+        {
+          "property": "height",
+          "value": "32px"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-heart div:before"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "-24px"
+        },
+        {
+          "property": "border-radius",
+          "value": "50% 0 0 50%"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-heart div:after"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-24px"
+        },
+        {
+          "property": "border-radius",
+          "value": "50% 50% 0 0"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-heart\"><div></div></div>"
+}

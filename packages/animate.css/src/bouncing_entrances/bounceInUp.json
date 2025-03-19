@@ -1,0 +1,73 @@
+{
+  "name": "bounceInUp",
+  "categories": [
+    "bouncing",
+    "entrance",
+    "bounce",
+    "up"
+  ],
+  "keyframes": [
+    {
+      "name": "from, 60%, 75%, 90%, to",
+      "declarations": [
+        {
+          "property": "animation-timing-function",
+          "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+        }
+      ]
+    },
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 3000px, 0) scaleY(5)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, -20px, 0) scaleY(0.9)"
+        }
+      ]
+    },
+    {
+      "name": "75%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 10px, 0) scaleY(0.95)"
+        }
+      ]
+    },
+    {
+      "name": "90%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, -5px, 0) scaleY(0.985)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ]
+}

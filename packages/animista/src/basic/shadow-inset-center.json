@@ -1,0 +1,29 @@
+{
+  "name": "shadow-inset-center",
+  "categories": [
+    "basic",
+    "shadow",
+    "inset",
+    "center"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "inset 0 0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "box-shadow",
+          "value": "inset 0 0 14px 0 rgba(0, 0, 0, .5)"
+        }
+      ]
+    }
+  ]
+}

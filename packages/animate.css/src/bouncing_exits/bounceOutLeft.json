@@ -1,0 +1,37 @@
+{
+  "name": "bounceOutLeft",
+  "categories": [
+    "bouncing",
+    "exit",
+    "bounce",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(20px, 0, 0) scaleX(0.9)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(-2000px, 0, 0) scaleX(2)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "line-scale-pulse-out",
+  "animations": [
+    {
+      "name": "line-scale-pulse-out",
+      "categories": [
+        "loader",
+        "line",
+        "scale",
+        "pulse",
+        "exit"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(1)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(.4)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-pulse-out>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "4px"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "border-radius",
+          "value": "2px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale-pulse-out",
+      "selectors": [
+        ".line-scale-pulse-out>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale-pulse-out .9s -.6s infinite cubic-bezier(.85, .25, .37, .85)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-pulse-out>div:nth-child(2)",
+        ".line-scale-pulse-out>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.4s !important"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-pulse-out>div:nth-child(1)",
+        ".line-scale-pulse-out>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.2s !important"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"line-scale-pulse-out\"><div></div><div></div><div></div><div></div><div></div></div>"
+}

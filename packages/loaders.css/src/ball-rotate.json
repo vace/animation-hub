@@ -1,0 +1,176 @@
+{
+  "name": "ball-rotate",
+  "animations": [
+    {
+      "name": "rotate",
+      "categories": [
+        "loader",
+        "ball",
+        "rotate"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate",
+        ".ball-rotate>div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate>div",
+        ".ball-rotate>div:after",
+        ".ball-rotate>div:before"
+      ],
+      "declarations": [
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate>div"
+      ],
+      "declarations": [
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "rotate",
+      "selectors": [
+        ".ball-rotate>div:first-child"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "rotate 1s 0s cubic-bezier(.7, -.13, .22, .86) infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate>div:after",
+        ".ball-rotate>div:before"
+      ],
+      "declarations": [
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "content",
+          "value": "\"\""
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "opacity",
+          "value": ".8"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate>div:before"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "-28px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-rotate>div:after"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "25px"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-rotate\"><div></div></div>"
+}

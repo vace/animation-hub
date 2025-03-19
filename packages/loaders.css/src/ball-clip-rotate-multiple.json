@@ -1,0 +1,150 @@
+{
+  "name": "ball-clip-rotate-multiple",
+  "animations": [
+    {
+      "name": "rotate",
+      "categories": [
+        "loader",
+        "ball",
+        "clip",
+        "rotate",
+        "multiple"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0) scale(1)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(180deg) scale(.6)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg) scale(1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-clip-rotate-multiple"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "rotate",
+      "selectors": [
+        ".ball-clip-rotate-multiple>div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "left",
+          "value": "-20px"
+        },
+        {
+          "property": "top",
+          "value": "-20px"
+        },
+        {
+          "property": "border",
+          "value": "2px solid #fff"
+        },
+        {
+          "property": "border-bottom-color",
+          "value": "transparent"
+        },
+        {
+          "property": "border-top-color",
+          "value": "transparent"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "width",
+          "value": "35px"
+        },
+        {
+          "property": "animation",
+          "value": "rotate 1s 0s ease-in-out infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-clip-rotate-multiple>div:last-child"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "top",
+          "value": "-10px"
+        },
+        {
+          "property": "left",
+          "value": "-10px"
+        },
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".5s"
+        },
+        {
+          "property": "border-color",
+          "value": "#fff transparent"
+        },
+        {
+          "property": "animation-direction",
+          "value": "reverse"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-clip-rotate-multiple\"><div></div><div></div></div>"
+}

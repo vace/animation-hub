@@ -1,0 +1,45 @@
+{
+  "name": "swirl-out-bl-fwd",
+  "categories": [
+    "exit",
+    "swirl",
+    "bottom-left",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0 100%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(540deg) scale(5)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0 100%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

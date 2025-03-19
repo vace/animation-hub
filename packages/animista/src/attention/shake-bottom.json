@@ -1,0 +1,59 @@
+{
+  "name": "shake-bottom",
+  "categories": [
+    "attention",
+    "shake",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        }
+      ]
+    },
+    {
+      "name": "10%, 90%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(2deg)"
+        }
+      ]
+    },
+    {
+      "name": "20%, 40%, 60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-4deg)"
+        }
+      ]
+    },
+    {
+      "name": "30%, 50%, 70%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(4deg)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-2deg)"
+        }
+      ]
+    }
+  ]
+}

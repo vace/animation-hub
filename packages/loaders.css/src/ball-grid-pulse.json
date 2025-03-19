@@ -1,0 +1,282 @@
+{
+  "name": "ball-grid-pulse",
+  "animations": [
+    {
+      "name": "ball-grid-pulse",
+      "categories": [
+        "loader",
+        "ball",
+        "grid",
+        "pulse"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.5)"
+            },
+            {
+              "property": "opacity",
+              "value": ".7"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "57px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div"
+      ],
+      "declarations": [
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".22s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".9s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".64s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.15s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".63s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-30ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.24s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "80ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.37s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".43s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.55s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "50ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".7s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "50ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".97s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-grid-pulse>div:nth-child(9)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".3s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".63s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-grid-pulse",
+      "selectors": [
+        ".ball-grid-pulse>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "float",
+          "value": "left"
+        },
+        {
+          "property": "animation-name",
+          "value": "ball-grid-pulse"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-grid-pulse\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

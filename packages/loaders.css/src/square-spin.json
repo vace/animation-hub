@@ -1,0 +1,79 @@
+{
+  "name": "square-spin",
+  "animations": [
+    {
+      "name": "square-spin",
+      "categories": [
+        "loader",
+        "square",
+        "spin"
+      ],
+      "keyframes": [
+        {
+          "name": "25%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(180deg) rotateY(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(0) rotateY(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(0) rotateY(0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "square-spin",
+      "selectors": [
+        ".square-spin>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "50px"
+        },
+        {
+          "property": "height",
+          "value": "50px"
+        },
+        {
+          "property": "background",
+          "value": "#fff"
+        },
+        {
+          "property": "animation",
+          "value": "square-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"square-spin\"><div></div></div>"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "perspectiveDown",
+  "categories": [
+    "perspective",
+    "down"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 100%"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "0 100%"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateX(-180deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

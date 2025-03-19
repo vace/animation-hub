@@ -1,0 +1,34 @@
+{
+  "name": "fadeOutDownBig",
+  "categories": [
+    "fading",
+    "exit",
+    "fade",
+    "down",
+    "big"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 2000px, 0)"
+        }
+      ]
+    }
+  ]
+}

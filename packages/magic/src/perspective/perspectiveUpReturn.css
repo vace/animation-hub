@@ -1,0 +1,14 @@
+@keyframes perspectiveUpReturn {
+  0% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(180deg);
+  }
+  100% {
+    transform-origin: 0 0;
+    transform: perspective(800px) rotateX(0deg);
+  }
+}
+
+.perspective-up-return {
+  animation-name: perspectiveUpReturn;
+}

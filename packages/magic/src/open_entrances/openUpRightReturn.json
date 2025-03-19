@@ -1,0 +1,47 @@
+{
+  "name": "openUpRightReturn",
+  "categories": [
+    "open",
+    "entrance",
+    "up",
+    "right",
+    "return"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "top right"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(-110deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "top right"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(0deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

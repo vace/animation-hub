@@ -1,0 +1,14 @@
+@keyframes rotate-in-hor {
+  0% {
+    transform: rotateX(360deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.rotate-in-hor {
+  animation-name: rotate-in-hor;
+}

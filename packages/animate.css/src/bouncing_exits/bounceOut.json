@@ -1,0 +1,45 @@
+{
+  "name": "bounceOut",
+  "categories": [
+    "bouncing",
+    "exit",
+    "bounce"
+  ],
+  "keyframes": [
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.9, 0.9, 0.9)"
+        }
+      ]
+    },
+    {
+      "name": "50%, 55%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(1.1, 1.1, 1.1)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(0.3, 0.3, 0.3)"
+        }
+      ]
+    }
+  ]
+}

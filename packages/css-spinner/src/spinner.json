@@ -1,0 +1,345 @@
+{
+  "name": "spinner",
+  "animations": [
+    {
+      "name": "lds-spinner",
+      "categories": [
+        "spinner",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner",
+        ".lds-spinner div",
+        ".lds-spinner div:after"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner"
+      ],
+      "declarations": [
+        {
+          "property": "color",
+          "value": "currentColor"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-spinner",
+      "selectors": [
+        ".lds-spinner div"
+      ],
+      "declarations": [
+        {
+          "property": "transform-origin",
+          "value": "40px 40px"
+        },
+        {
+          "property": "animation",
+          "value": "lds-spinner 1.2s linear infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:after"
+      ],
+      "declarations": [
+        {
+          "property": "content",
+          "value": "\" \""
+        },
+        {
+          "property": "display",
+          "value": "block"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "top",
+          "value": "3.2px"
+        },
+        {
+          "property": "left",
+          "value": "36.8px"
+        },
+        {
+          "property": "width",
+          "value": "6.4px"
+        },
+        {
+          "property": "height",
+          "value": "17.6px"
+        },
+        {
+          "property": "border-radius",
+          "value": "20%"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-1.1s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(30deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-1s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(60deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.9s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(90deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.8s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(120deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.7s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(150deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.6s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(180deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.5s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(210deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.4s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(9)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(240deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.3s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(10)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(270deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.2s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(11)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(300deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.1s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-spinner div:nth-child(12)"
+      ],
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(330deg)"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-spinner\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

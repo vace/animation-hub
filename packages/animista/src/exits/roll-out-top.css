@@ -1,0 +1,14 @@
+@keyframes roll-out-top {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+}
+
+.roll-out-top {
+  animation-name: roll-out-top;
+}

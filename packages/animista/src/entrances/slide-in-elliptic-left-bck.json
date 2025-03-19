@@ -1,0 +1,46 @@
+{
+  "name": "slide-in-elliptic-left-bck",
+  "categories": [
+    "entrance",
+    "slide",
+    "elliptic",
+    "left",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-800px) rotateY(-30deg) scale(6.5)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "200% 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotateY(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "-600px 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@keyframes fade-out-top {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+
+.fade-out-top {
+  animation-name: fade-out-top;
+}

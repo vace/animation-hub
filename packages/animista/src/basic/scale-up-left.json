@@ -1,0 +1,37 @@
+{
+  "name": "scale-up-left",
+  "categories": [
+    "basic",
+    "scale",
+    "up",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.5)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 50%"
+        }
+      ]
+    }
+  ]
+}

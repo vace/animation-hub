@@ -1,0 +1,88 @@
+{
+  "name": "triangle-skew-spin",
+  "animations": [
+    {
+      "name": "triangle-skew-spin",
+      "categories": [
+        "loader",
+        "triangle",
+        "skew",
+        "spin"
+      ],
+      "keyframes": [
+        {
+          "name": "25%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(180deg) rotateY(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(0) rotateY(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "perspective(100px) rotateX(0) rotateY(0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "triangle-skew-spin",
+      "selectors": [
+        ".triangle-skew-spin>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "0"
+        },
+        {
+          "property": "height",
+          "value": "0"
+        },
+        {
+          "property": "border-left",
+          "value": "20px solid transparent"
+        },
+        {
+          "property": "border-right",
+          "value": "20px solid transparent"
+        },
+        {
+          "property": "border-bottom",
+          "value": "20px solid #fff"
+        },
+        {
+          "property": "animation",
+          "value": "triangle-skew-spin 3s 0s cubic-bezier(.09, .57, .49, .9) infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"triangle-skew-spin\"><div></div></div>"
+}

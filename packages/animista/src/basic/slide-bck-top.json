@@ -1,0 +1,29 @@
+{
+  "name": "slide-bck-top",
+  "categories": [
+    "basic",
+    "slide",
+    "back",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-400px) translateY(-200px)"
+        }
+      ]
+    }
+  ]
+}

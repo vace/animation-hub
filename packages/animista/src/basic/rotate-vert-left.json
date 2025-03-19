@@ -1,0 +1,37 @@
+{
+  "name": "rotate-vert-left",
+  "categories": [
+    "basic",
+    "rotate",
+    "vert",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(360deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "left"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "rotate-hor-center",
+  "categories": [
+    "basic",
+    "rotate",
+    "horizontal",
+    "center"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(-360deg)"
+        }
+      ]
+    }
+  ]
+}

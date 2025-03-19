@@ -1,0 +1,287 @@
+{
+  "name": "line-spin-fade-loader",
+  "animations": [
+    {
+      "name": "line-spin-fade-loader",
+      "categories": [
+        "loader",
+        "line",
+        "spin",
+        "fade"
+      ],
+      "keyframes": [
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": ".3"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-spin-fade-loader"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "top",
+          "value": "-10px"
+        },
+        {
+          "property": "left",
+          "value": "-4px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-spin-fade-loader>div"
+      ],
+      "declarations": [
+        {
+          "property": "border-radius",
+          "value": "2px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "5px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "20px"
+        },
+        {
+          "property": "left",
+          "value": "0"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.84s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "13.64px"
+        },
+        {
+          "property": "left",
+          "value": "13.64px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(-45deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.72s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "20px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(90deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.6s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-13.64px"
+        },
+        {
+          "property": "left",
+          "value": "13.64px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(45deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.48s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-20px"
+        },
+        {
+          "property": "left",
+          "value": "0"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.36s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(6)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "-13.64px"
+        },
+        {
+          "property": "left",
+          "value": "-13.64px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(-45deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.24s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(7)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "-20px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(90deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s -.12s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-spin-fade-loader",
+      "selectors": [
+        ".line-spin-fade-loader>div:nth-child(8)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "13.64px"
+        },
+        {
+          "property": "left",
+          "value": "-13.64px"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(45deg)"
+        },
+        {
+          "property": "animation",
+          "value": "line-spin-fade-loader 1.2s 0s infinite ease-in-out"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"line-spin-fade-loader\"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>"
+}

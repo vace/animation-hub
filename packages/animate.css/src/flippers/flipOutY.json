@@ -1,0 +1,52 @@
+{
+  "name": "flipOutY",
+  "categories": [
+    "flippers",
+    "flip",
+    "exit",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px)"
+        }
+      ]
+    },
+    {
+      "name": "30%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(0, 1, 0, -15deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(0, 1, 0, 90deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "backface-visibility",
+      "value": "visible !important"
+    }
+  ]
+}

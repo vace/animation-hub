@@ -1,0 +1,52 @@
+{
+  "name": "puff-out-bl",
+  "categories": [
+    "exit",
+    "puff",
+    "bottom-left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(2)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(4px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

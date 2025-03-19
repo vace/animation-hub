@@ -1,0 +1,108 @@
+{
+  "name": "semi-circle-spin",
+  "animations": [
+    {
+      "name": "semi-circle-spin",
+      "categories": [
+        "loader",
+        "semi",
+        "circle",
+        "spin"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".semi-circle-spin"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "35px"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "overflow",
+          "value": "hidden"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "semi-circle-spin",
+      "selectors": [
+        ".semi-circle-spin>div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "border-width",
+          "value": "0"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "animation",
+          "value": "semi-circle-spin .6s 0s infinite linear"
+        },
+        {
+          "property": "background-image",
+          "value": "linear-gradient(transparent 0, transparent 70%, #fff 30%, #fff 100%)"
+        },
+        {
+          "property": "width",
+          "value": "100%"
+        },
+        {
+          "property": "height",
+          "value": "100%"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"semi-circle-spin\"><div></div></div>"
+}

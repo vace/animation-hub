@@ -1,0 +1,40 @@
+{
+  "name": "rotateOutDownRight",
+  "categories": [
+    "rotating",
+    "exit",
+    "rotate",
+    "down",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, -45deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "transform-origin",
+      "value": "right bottom"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "kenburns-top",
+  "categories": [
+    "background",
+    "ken",
+    "burns",
+    "kenburns",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) translateY(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 16%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1.25) translateY(-15px)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "top"
+        }
+      ]
+    }
+  ]
+}

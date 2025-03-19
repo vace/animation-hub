@@ -1,0 +1,14 @@
+@keyframes tilt-in-top-2 {
+  0% {
+    transform: rotateY(-30deg) translateY(-300px) skewY(30deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg) translateY(0) skewY(0deg);
+    opacity: 1;
+  }
+}
+
+.tilt-in-top-2 {
+  animation-name: tilt-in-top-2;
+}

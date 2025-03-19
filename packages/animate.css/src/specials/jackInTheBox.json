@@ -1,0 +1,60 @@
+{
+  "name": "jackInTheBox",
+  "categories": [
+    "specials",
+    "jack",
+    "entrance",
+    "the",
+    "box"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.1) rotate(30deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "center bottom"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-10deg)"
+        }
+      ]
+    },
+    {
+      "name": "70%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(3deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "flipInX",
+  "categories": [
+    "flippers",
+    "flip",
+    "entrance",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(1, 0, 0, 90deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(1, 0, 0, -20deg)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(1, 0, 0, 10deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px) rotate3d(1, 0, 0, -5deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "perspective(400px)"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "backface-visibility",
+      "value": "visible !important"
+    }
+  ]
+}

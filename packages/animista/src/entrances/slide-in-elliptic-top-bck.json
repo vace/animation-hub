@@ -1,0 +1,46 @@
+{
+  "name": "slide-in-elliptic-top-bck",
+  "categories": [
+    "entrance",
+    "slide",
+    "elliptic",
+    "top",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-600px) rotateX(30deg) scale(6.5)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 200%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% -500px"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

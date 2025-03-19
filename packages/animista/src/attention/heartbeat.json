@@ -1,0 +1,79 @@
+{
+  "name": "heartbeat",
+  "categories": [
+    "attention",
+    "pulsate",
+    "heartbeat"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "center center"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "10%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.91)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "17%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.98)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "33%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.87)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in"
+        }
+      ]
+    },
+    {
+      "name": "45%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-out"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "scale-in-hor-right",
+  "categories": [
+    "entrance",
+    "scale",
+    "horizontal",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 100%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 100%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

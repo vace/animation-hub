@@ -1,0 +1,28 @@
+{
+  "name": "rotate-90-ccw",
+  "categories": [
+    "basic",
+    "rotate",
+    "ccw"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-90deg)"
+        }
+      ]
+    }
+  ]
+}

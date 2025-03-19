@@ -1,0 +1,12 @@
+@keyframes scale-down-center {
+  0% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.5);
+  }
+}
+
+.scale-down-center {
+  animation-name: scale-down-center;
+}

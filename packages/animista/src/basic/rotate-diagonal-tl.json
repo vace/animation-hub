@@ -1,0 +1,50 @@
+{
+  "name": "rotate-diagonal-tl",
+  "categories": [
+    "basic",
+    "rotate",
+    "diagonal",
+    "top-left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 0deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 360deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    }
+  ]
+}

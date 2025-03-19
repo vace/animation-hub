@@ -1,0 +1,172 @@
+{
+  "name": "line-scale-party",
+  "animations": [
+    {
+      "name": "line-scale-party",
+      "categories": [
+        "loader",
+        "line",
+        "scale",
+        "party"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.5)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "4px"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div"
+      ],
+      "declarations": [
+        {
+          "property": "border-radius",
+          "value": "2px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": ".48s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".54s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.15s"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1.15s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "40ms"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".77s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale-party>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.12s"
+        },
+        {
+          "property": "animation-duration",
+          "value": ".61s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale-party",
+      "selectors": [
+        ".line-scale-party>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "animation-name",
+          "value": "line-scale-party"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"line-scale-party\"><div></div><div></div><div></div><div></div></div>"
+}

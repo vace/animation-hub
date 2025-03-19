@@ -1,0 +1,37 @@
+{
+  "name": "slide-in-bck-tr",
+  "categories": [
+    "entrance",
+    "slide",
+    "back",
+    "top-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(700px) translateY(-300px) translateX(400px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateY(0) translateX(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

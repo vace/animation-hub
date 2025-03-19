@@ -1,0 +1,12 @@
+@keyframes shadow-drop-bl {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: -12px 12px 20px -12px rgba(0, 0, 0, .35);
+  }
+}
+
+.shadow-drop-bl {
+  animation-name: shadow-drop-bl;
+}

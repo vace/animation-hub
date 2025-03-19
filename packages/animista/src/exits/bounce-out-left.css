@@ -1,0 +1,29 @@
+@keyframes bounce-out-left {
+  0%, 15%, 38%, 70% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  5% {
+    transform: translateX(-30px);
+    animation-timing-function: ease-in;
+  }
+  25% {
+    transform: translateX(-38px);
+    animation-timing-function: ease-in;
+  }
+  52% {
+    transform: translateX(-80px);
+    animation-timing-function: ease-in;
+  }
+  85% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+.bounce-out-left {
+  animation-name: bounce-out-left;
+}

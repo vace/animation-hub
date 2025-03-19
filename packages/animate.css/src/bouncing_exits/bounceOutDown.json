@@ -1,0 +1,46 @@
+{
+  "name": "bounceOutDown",
+  "categories": [
+    "bouncing",
+    "exit",
+    "bounce",
+    "down"
+  ],
+  "keyframes": [
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 10px, 0) scaleY(0.985)"
+        }
+      ]
+    },
+    {
+      "name": "40%, 45%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, -20px, 0) scaleY(0.9)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 2000px, 0) scaleY(3)"
+        }
+      ]
+    }
+  ]
+}

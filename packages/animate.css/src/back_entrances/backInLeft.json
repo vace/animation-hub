@@ -1,0 +1,49 @@
+{
+  "name": "backInLeft",
+  "categories": [
+    "back",
+    "entrance",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(-2000px) scale(0.7)"
+        },
+        {
+          "property": "opacity",
+          "value": "0.7"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0px) scale(0.7)"
+        },
+        {
+          "property": "opacity",
+          "value": "0.7"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

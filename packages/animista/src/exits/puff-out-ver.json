@@ -1,0 +1,44 @@
+{
+  "name": "puff-out-ver",
+  "categories": [
+    "exit",
+    "puff",
+    "vertical"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleY(1)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleY(2)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(4px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

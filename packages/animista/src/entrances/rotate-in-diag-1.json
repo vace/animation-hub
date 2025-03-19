@@ -1,0 +1,36 @@
+{
+  "name": "rotate-in-diag-1",
+  "categories": [
+    "entrance",
+    "rotate",
+    "diag"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(1, 1, 0, -360deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(1, 1, 0, 0deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

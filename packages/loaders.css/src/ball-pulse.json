@@ -1,0 +1,120 @@
+{
+  "name": "ball-pulse",
+  "animations": [
+    {
+      "name": "ball-pulse",
+      "categories": [
+        "loader",
+        "ball",
+        "pulse"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 80%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "45%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.1)"
+            },
+            {
+              "property": "opacity",
+              "value": ".7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "ball-pulse",
+      "selectors": [
+        ".ball-pulse>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse .75s -.24s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse",
+      "selectors": [
+        ".ball-pulse>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse .75s -.12s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse",
+      "selectors": [
+        ".ball-pulse>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "ball-pulse .75s 0s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-pulse>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "15px"
+        },
+        {
+          "property": "height",
+          "value": "15px"
+        },
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-pulse\"><div></div><div></div><div></div></div>"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "rotateLeft",
+  "categories": [
+    "rotating",
+    "rotate",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0 0"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateY(0deg) translateZ(0px)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0"
+        },
+        {
+          "property": "transform",
+          "value": "perspective(800px) rotateY(-180deg) translateZ(300px)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

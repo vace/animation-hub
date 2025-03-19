@@ -1,0 +1,85 @@
+{
+  "name": "bounceIn",
+  "categories": [
+    "bouncing",
+    "entrance",
+    "bounce"
+  ],
+  "keyframes": [
+    {
+      "name": "from, 20%, 40%, 60%, 80%, to",
+      "declarations": [
+        {
+          "property": "animation-timing-function",
+          "value": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+        }
+      ]
+    },
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(0.3, 0.3, 0.3)"
+        }
+      ]
+    },
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(1.1, 1.1, 1.1)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.9, 0.9, 0.9)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(1.03, 1.03, 1.03)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale3d(0.97, 0.97, 0.97)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform",
+          "value": "scale3d(1, 1, 1)"
+        }
+      ]
+    }
+  ]
+}

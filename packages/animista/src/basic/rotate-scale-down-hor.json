@@ -1,0 +1,39 @@
+{
+  "name": "rotate-scale-down-hor",
+  "categories": [
+    "basic",
+    "rotate",
+    "scale",
+    "down",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(.5) rotateX(-180deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) rotateX(-360deg)"
+        }
+      ]
+    }
+  ]
+}

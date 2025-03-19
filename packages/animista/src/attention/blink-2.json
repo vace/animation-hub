@@ -1,0 +1,27 @@
+{
+  "name": "blink-2",
+  "categories": [
+    "attention",
+    "blink"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": ".2"
+        }
+      ]
+    }
+  ]
+}

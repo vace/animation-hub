@@ -1,0 +1,39 @@
+{
+  "name": "slide-rotate-hor-t-fwd",
+  "categories": [
+    "basic",
+    "slide",
+    "rotate",
+    "horizontal",
+    "top",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) translateZ(0) rotateX(0deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom center"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-150px) translateZ(130px) rotateX(-90deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "bottom center"
+        }
+      ]
+    }
+  ]
+}

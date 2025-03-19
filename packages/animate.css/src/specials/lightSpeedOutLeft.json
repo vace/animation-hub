@@ -1,0 +1,40 @@
+{
+  "name": "lightSpeedOutLeft",
+  "categories": [
+    "specials",
+    "light",
+    "speed",
+    "exit",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(-100%, 0, 0) skewX(-30deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-timing-function",
+      "value": "ease-in"
+    }
+  ]
+}

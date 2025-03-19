@@ -1,0 +1,33 @@
+{
+  "name": "fadeOutDown",
+  "categories": [
+    "fading",
+    "exit",
+    "fade",
+    "down"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform",
+          "value": "translate3d(0, 100%, 0)"
+        }
+      ]
+    }
+  ]
+}

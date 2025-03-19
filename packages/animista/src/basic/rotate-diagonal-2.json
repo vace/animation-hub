@@ -1,0 +1,37 @@
+{
+  "name": "rotate-diagonal-2",
+  "categories": [
+    "basic",
+    "rotate",
+    "diagonal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 0deg)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 180deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 360deg)"
+        }
+      ]
+    }
+  ]
+}

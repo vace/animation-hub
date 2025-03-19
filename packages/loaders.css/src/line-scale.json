@@ -1,0 +1,147 @@
+{
+  "name": "line-scale",
+  "animations": [
+    {
+      "name": "line-scale",
+      "categories": [
+        "loader",
+        "line",
+        "scale"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(1)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scaley(.4)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "4px"
+        },
+        {
+          "property": "height",
+          "value": "35px"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "border-radius",
+          "value": "2px"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale",
+      "selectors": [
+        ".line-scale>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale 1s -.4s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale",
+      "selectors": [
+        ".line-scale>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale 1s -.3s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale",
+      "selectors": [
+        ".line-scale>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale 1s -.2s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale",
+      "selectors": [
+        ".line-scale>div:nth-child(4)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale 1s -.1s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "line-scale",
+      "selectors": [
+        ".line-scale>div:nth-child(5)"
+      ],
+      "declarations": [
+        {
+          "property": "animation",
+          "value": "line-scale 1s 0s infinite cubic-bezier(.2, .68, .18, 1.08)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".line-scale>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"line-scale\"><div></div><div></div><div></div><div></div><div></div></div>"
+}

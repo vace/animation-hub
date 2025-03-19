@@ -1,0 +1,19 @@
+@keyframes color-change-4x {
+  0% {
+    background: #19dcea;
+  }
+  33.3333% {
+    background: #b22cff;
+  }
+  66.666% {
+    background: #ea2222;
+  }
+  to {
+    background: #f5be10;
+  }
+}
+
+.color-change-4-x {
+  animation-direction: alternate;
+  animation-name: color-change-4x;
+}

@@ -1,0 +1,91 @@
+{
+  "name": "ball-clip-rotate",
+  "animations": [
+    {
+      "name": "rotate",
+      "categories": [
+        "loader",
+        "ball",
+        "clip",
+        "rotate"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "rotate",
+      "selectors": [
+        ".ball-clip-rotate>div"
+      ],
+      "declarations": [
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "margin",
+          "value": "2px"
+        },
+        {
+          "property": "border",
+          "value": "2px solid #fff"
+        },
+        {
+          "property": "border-bottom-color",
+          "value": "transparent"
+        },
+        {
+          "property": "height",
+          "value": "26px"
+        },
+        {
+          "property": "width",
+          "value": "26px"
+        },
+        {
+          "property": "background",
+          "value": "0 0 !important"
+        },
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "animation",
+          "value": "rotate .75s 0s linear infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-clip-rotate\"><div></div></div>"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "tilt-in-fwd-br",
+  "categories": [
+    "entrance",
+    "tilt",
+    "forward",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(20deg) rotateX(-35deg) translate(300px, 300px) skew(35deg, -10deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

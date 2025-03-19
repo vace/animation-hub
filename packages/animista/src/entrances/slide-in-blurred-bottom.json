@@ -1,0 +1,53 @@
+{
+  "name": "slide-in-blurred-bottom",
+  "categories": [
+    "entrance",
+    "slide",
+    "blurred",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(1000px) scaleY(2.5) scaleX(.2)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(40px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) scaleY(1) scaleX(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

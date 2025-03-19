@@ -1,0 +1,29 @@
+{
+  "name": "text-shadow-drop-left",
+  "categories": [
+    "text",
+    "shadow",
+    "drop",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "0 0 0 transparent"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "-6px 0 18px rgba(0, 0, 0, .35)"
+        }
+      ]
+    }
+  ]
+}

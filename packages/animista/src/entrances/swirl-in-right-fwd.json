@@ -1,0 +1,45 @@
+{
+  "name": "swirl-in-right-fwd",
+  "categories": [
+    "entrance",
+    "swirl",
+    "right",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(-540deg) scale(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

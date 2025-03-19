@@ -1,0 +1,163 @@
+{
+  "name": "ring",
+  "animations": [
+    {
+      "name": "lds-ring",
+      "categories": [
+        "spinner",
+        "ring",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ring",
+        ".lds-ring div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ring"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ring",
+      "selectors": [
+        ".lds-ring div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        },
+        {
+          "property": "display",
+          "value": "block"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "64px"
+        },
+        {
+          "property": "height",
+          "value": "64px"
+        },
+        {
+          "property": "margin",
+          "value": "8px"
+        },
+        {
+          "property": "border",
+          "value": "8px solid currentColor"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite"
+        },
+        {
+          "property": "border-color",
+          "value": "currentColor transparent transparent transparent"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ring div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-0.45s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ring div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-0.3s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ring div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-0.15s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-ring\"><div></div><div></div><div></div><div></div></div>"
+}

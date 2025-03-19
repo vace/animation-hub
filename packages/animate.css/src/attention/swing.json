@@ -1,0 +1,60 @@
+{
+  "name": "swing",
+  "categories": [
+    "attention",
+    "swing"
+  ],
+  "keyframes": [
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, 15deg)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, -10deg)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, 5deg)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, -5deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, 0deg)"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "transform-origin",
+      "value": "top center"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "flip-2-hor-top-bck",
+  "categories": [
+    "basic",
+    "flip",
+    "horizontal",
+    "top",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) translateZ(0) rotateX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-100%) translateZ(-260px) rotateX(180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        }
+      ]
+    }
+  ]
+}

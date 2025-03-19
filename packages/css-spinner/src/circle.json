@@ -1,0 +1,126 @@
+{
+  "name": "circle",
+  "animations": [
+    {
+      "name": "lds-circle",
+      "categories": [
+        "spinner",
+        "circle",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%, 100%",
+          "declarations": [
+            {
+              "property": "animation-timing-function",
+              "value": "cubic-bezier(0.5, 0, 1, 0.5)"
+            }
+          ]
+        },
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotateY(0deg)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotateY(1800deg)"
+            },
+            {
+              "property": "animation-timing-function",
+              "value": "cubic-bezier(0, 0.5, 0.5, 1)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotateY(3600deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-circle",
+        ".lds-circle div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-circle"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "transform",
+          "value": "translateZ(1px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-circle",
+      "selectors": [
+        ".lds-circle > div"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "width",
+          "value": "64px"
+        },
+        {
+          "property": "height",
+          "value": "64px"
+        },
+        {
+          "property": "margin",
+          "value": "8px"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "animation",
+          "value": "lds-circle 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-circle\"><div></div></div>"
+}

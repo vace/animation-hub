@@ -1,0 +1,49 @@
+{
+  "name": "slit-out-horizontal",
+  "categories": [
+    "exit",
+    "slit",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) rotateX(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "54%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-160px) rotateX(87deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-800px) rotateX(90deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

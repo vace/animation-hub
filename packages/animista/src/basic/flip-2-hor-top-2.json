@@ -1,0 +1,37 @@
+{
+  "name": "flip-2-hor-top-2",
+  "categories": [
+    "basic",
+    "flip",
+    "horizontal",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0) rotateX(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 0%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-100%) rotateX(180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 100%"
+        }
+      ]
+    }
+  ]
+}

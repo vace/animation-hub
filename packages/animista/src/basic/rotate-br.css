@@ -1,0 +1,14 @@
+@keyframes rotate-br {
+  0% {
+    transform: rotate(0);
+    transform-origin: bottom right;
+  }
+  to {
+    transform: rotate(360deg);
+    transform-origin: bottom right;
+  }
+}
+
+.rotate-br {
+  animation-name: rotate-br;
+}

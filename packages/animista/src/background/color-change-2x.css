@@ -1,0 +1,13 @@
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  to {
+    background: #b22cff;
+  }
+}
+
+.color-change-2-x {
+  animation-direction: alternate;
+  animation-name: color-change-2x;
+}

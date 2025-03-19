@@ -1,0 +1,29 @@
+{
+  "name": "rotate-90-horizontal-fwd",
+  "categories": [
+    "basic",
+    "rotate",
+    "horizontal",
+    "forward"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotateX(90deg)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "scale-down-hor-center",
+  "categories": [
+    "basic",
+    "scale",
+    "down",
+    "horizontal",
+    "center"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(1)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scaleX(.3)"
+        }
+      ]
+    }
+  ]
+}

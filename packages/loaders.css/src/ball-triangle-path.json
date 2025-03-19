@@ -1,0 +1,324 @@
+{
+  "name": "ball-triangle-path",
+  "animations": [
+    {
+      "name": "ball-triangle-path-1",
+      "categories": [
+        "loader",
+        "ball",
+        "triangle",
+        "path"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(25px, -50px)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(50px, 0)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ball-triangle-path-2",
+      "categories": [
+        "loader",
+        "ball",
+        "triangle",
+        "path"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(25px, 50px)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-25px, 50px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ball-triangle-path-3",
+      "categories": [
+        "loader",
+        "ball",
+        "triangle",
+        "path"
+      ],
+      "keyframes": [
+        {
+          "name": "33%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-50px, 0)"
+            }
+          ]
+        },
+        {
+          "name": "66%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(-25px, -50px)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(0, 0)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path>div:nth-child(1)",
+        ".ball-triangle-path>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-duration",
+          "value": "2s"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translate(-29.99px, -37.51px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-triangle-path-1",
+      "selectors": [
+        ".ball-triangle-path>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-name",
+          "value": "ball-triangle-path-1"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        },
+        {
+          "property": "animation-duration",
+          "value": "2s"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-triangle-path-2",
+      "selectors": [
+        ".ball-triangle-path>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-name",
+          "value": "ball-triangle-path-2"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        },
+        {
+          "property": "animation-duration",
+          "value": "2s"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-triangle-path-3",
+      "selectors": [
+        ".ball-triangle-path>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-name",
+          "value": "ball-triangle-path-3"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0"
+        },
+        {
+          "property": "animation-duration",
+          "value": "2s"
+        },
+        {
+          "property": "animation-timing-function",
+          "value": "ease-in-out"
+        },
+        {
+          "property": "animation-iteration-count",
+          "value": "infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "10px"
+        },
+        {
+          "property": "height",
+          "value": "10px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "border",
+          "value": "1px solid #fff"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path>div:nth-of-type(1)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "50px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path>div:nth-of-type(2)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "25px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-triangle-path>div:nth-of-type(3)"
+      ],
+      "declarations": [
+        {
+          "property": "top",
+          "value": "50px"
+        },
+        {
+          "property": "left",
+          "value": "50px"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-triangle-path\"><div></div><div></div><div></div></div>"
+}

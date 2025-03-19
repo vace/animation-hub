@@ -1,0 +1,43 @@
+{
+  "name": "magic",
+  "categories": [
+    "magic"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 200%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1, 1) rotate(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "200% 500%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0, 0) rotate(270deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

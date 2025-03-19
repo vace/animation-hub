@@ -1,0 +1,37 @@
+{
+  "name": "text-shadow-pop-bottom",
+  "categories": [
+    "text",
+    "shadow",
+    "pop",
+    "bottom"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "text-shadow",
+          "value": "0 1px #555, 0 2px #555, 0 3px #555, 0 4px #555, 0 5px #555, 0 6px #555, 0 7px #555, 0 8px #555"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(-8px)"
+        }
+      ]
+    }
+  ]
+}

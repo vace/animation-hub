@@ -1,0 +1,167 @@
+{
+  "name": "facebook",
+  "animations": [
+    {
+      "name": "lds-facebook",
+      "categories": [
+        "spinner",
+        "facebook",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "8px"
+            },
+            {
+              "property": "height",
+              "value": "64px"
+            }
+          ]
+        },
+        {
+          "name": "50%, 100%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "24px"
+            },
+            {
+              "property": "height",
+              "value": "32px"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-facebook",
+        ".lds-facebook div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-facebook"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-facebook",
+      "selectors": [
+        ".lds-facebook div"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "width",
+          "value": "16px"
+        },
+        {
+          "property": "background",
+          "value": "currentColor"
+        },
+        {
+          "property": "animation",
+          "value": "lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-facebook div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "8px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.24s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-facebook div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "32px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "-0.12s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-facebook div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "left",
+          "value": "56px"
+        },
+        {
+          "property": "animation-delay",
+          "value": "0s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-facebook\"><div></div><div></div><div></div></div>"
+}

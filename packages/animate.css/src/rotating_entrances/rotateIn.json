@@ -1,0 +1,42 @@
+{
+  "name": "rotateIn",
+  "categories": [
+    "rotating",
+    "entrance",
+    "rotate"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(0, 0, 1, -200deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "transform-origin",
+      "value": "center"
+    }
+  ]
+}

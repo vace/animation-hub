@@ -1,0 +1,38 @@
+{
+  "name": "kenburns-right",
+  "categories": [
+    "background",
+    "ken",
+    "burns",
+    "kenburns",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1) translate(0, 0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "84% 50%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "scale(1.25) translateX(20px)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "right"
+        }
+      ]
+    }
+  ]
+}

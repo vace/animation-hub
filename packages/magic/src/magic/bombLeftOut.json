@@ -1,0 +1,75 @@
+{
+  "name": "bombLeftOut",
+  "categories": [
+    "magic",
+    "bomb",
+    "left",
+    "exit"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(0deg)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0px)"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "-100% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(-160deg)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0px)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "-100% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "rotate(-160deg)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(20px)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

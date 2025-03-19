@@ -1,0 +1,27 @@
+{
+  "name": "flash",
+  "categories": [
+    "attention",
+    "flash"
+  ],
+  "keyframes": [
+    {
+      "name": "from, 50%, to",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "25%, 75%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

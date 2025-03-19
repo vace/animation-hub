@@ -1,0 +1,30 @@
+{
+  "name": "@animation-hub/css-spinner",
+  "version": "0.0.1",
+  "description": "small, elegant pure css spinner for ajax or loading animation",
+  "type": "module",
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "unbuild",
+    "prepublishOnly": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "style": "dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "foolishIn",
+  "categories": [
+    "magic",
+    "foolish",
+    "entrance"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0, 0) rotate(360deg)"
+        }
+      ]
+    },
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 100%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.5, 0.5) rotate(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "100% 100%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.5, 0.5) rotate(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.5, 0.5) rotate(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0.5, 0.5) rotate(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1, 1) rotate(0deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

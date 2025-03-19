@@ -1,0 +1,12 @@
+@keyframes pulsate-bck {
+  0%, to {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.9);
+  }
+}
+
+.pulsate-bck {
+  animation-name: pulsate-bck;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "flip-diagonal-2-br",
+  "categories": [
+    "basic",
+    "flip",
+    "diagonal",
+    "bottom-right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 0deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 180deg)"
+        }
+      ]
+    }
+  ]
+}

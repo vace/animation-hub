@@ -1,0 +1,46 @@
+{
+  "name": "slide-out-elliptic-right-bck",
+  "categories": [
+    "exit",
+    "slide",
+    "elliptic",
+    "right",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotateY(0) scale(1)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "-1800px 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(1000px) rotateY(-30deg) scale(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "-100% 50%"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

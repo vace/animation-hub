@@ -1,0 +1,45 @@
+{
+  "name": "holeOut",
+  "categories": [
+    "magic",
+    "hole",
+    "exit"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(1, 1) rotateY(0deg)"
+        }
+      ]
+    },
+    {
+      "name": "100%",
+      "declarations": [
+        {
+          "property": "opacity",
+          "value": "0"
+        },
+        {
+          "property": "transform-origin",
+          "value": "50% 50%"
+        },
+        {
+          "property": "transform",
+          "value": "scale(0, 0) rotateY(180deg)"
+        }
+      ]
+    }
+  ],
+  "properties": []
+}

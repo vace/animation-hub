@@ -1,0 +1,12 @@
+@keyframes slide-bck-center {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translateZ(-400px);
+  }
+}
+
+.slide-bck-center {
+  animation-name: slide-bck-center;
+}

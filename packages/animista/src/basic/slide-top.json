@@ -1,0 +1,28 @@
+{
+  "name": "slide-top",
+  "categories": [
+    "basic",
+    "slide",
+    "top"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateY(-100px)"
+        }
+      ]
+    }
+  ]
+}

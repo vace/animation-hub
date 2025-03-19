@@ -1,0 +1,38 @@
+{
+  "name": "swing-top-left-bck",
+  "categories": [
+    "basic",
+    "swing",
+    "top",
+    "left",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 0deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate3d(-1, 1, 0, 180deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "0% 0%"
+        }
+      ]
+    }
+  ]
+}

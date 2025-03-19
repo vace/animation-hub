@@ -1,0 +1,29 @@
+{
+  "name": "slide-fwd-right",
+  "categories": [
+    "basic",
+    "slide",
+    "forward",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(160px) translateX(100px)"
+        }
+      ]
+    }
+  ]
+}

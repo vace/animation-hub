@@ -1,0 +1,29 @@
+{
+  "name": "bg-pan-bl",
+  "categories": [
+    "background",
+    "bg",
+    "pan",
+    "bottom-left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "background-position",
+          "value": "100% 0"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "background-position",
+          "value": "0 100%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "blur-out-expand",
+  "categories": [
+    "text",
+    "blur",
+    "exit",
+    "expand"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "filter",
+          "value": "blur(.01)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "letter-spacing",
+          "value": "1em"
+        },
+        {
+          "property": "filter",
+          "value": "blur(12px) opacity(0%)"
+        }
+      ]
+    }
+  ]
+}

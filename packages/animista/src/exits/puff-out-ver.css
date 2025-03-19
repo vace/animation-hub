@@ -1,0 +1,16 @@
+@keyframes puff-out-ver {
+  0% {
+    transform: scaleY(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+  to {
+    transform: scaleY(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+}
+
+.puff-out-ver {
+  animation-name: puff-out-ver;
+}

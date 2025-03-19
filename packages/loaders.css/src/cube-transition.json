@@ -1,0 +1,121 @@
+{
+  "name": "cube-transition",
+  "animations": [
+    {
+      "name": "cube-transition",
+      "categories": [
+        "loader",
+        "cube",
+        "transition"
+      ],
+      "keyframes": [
+        {
+          "name": "25%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateX(50px) scale(.5) rotate(-90deg)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translate(50px, 50px) rotate(-180deg)"
+            }
+          ]
+        },
+        {
+          "name": "75%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "translateY(50px) scale(.5) rotate(-270deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(-360deg)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".cube-transition"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translate(-25px, -25px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "cube-transition",
+      "selectors": [
+        ".cube-transition>div"
+      ],
+      "declarations": [
+        {
+          "property": "width",
+          "value": "10px"
+        },
+        {
+          "property": "height",
+          "value": "10px"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "top",
+          "value": "-5px"
+        },
+        {
+          "property": "left",
+          "value": "-5px"
+        },
+        {
+          "property": "background-color",
+          "value": "#fff"
+        },
+        {
+          "property": "animation",
+          "value": "cube-transition 1.6s 0s infinite ease-in-out"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".cube-transition>div:last-child"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.8s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"cube-transition\"><div></div><div></div></div>"
+}

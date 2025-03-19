@@ -1,0 +1,14 @@
+@keyframes fade-out-bottom {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+}
+
+.fade-out-bottom {
+  animation-name: fade-out-bottom;
+}

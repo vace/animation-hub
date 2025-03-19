@@ -1,0 +1,45 @@
+{
+  "name": "roll-out-blurred-right",
+  "categories": [
+    "exit",
+    "roll",
+    "blurred",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(0) rotate(0deg)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(0)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateX(1000px) rotate(720deg)"
+        },
+        {
+          "property": "filter",
+          "value": "blur(50px)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    }
+  ]
+}

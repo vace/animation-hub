@@ -1,0 +1,44 @@
+{
+  "name": "color-change-3x",
+  "categories": [
+    "background",
+    "color",
+    "change",
+    "horizontal"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#19dcea"
+        }
+      ]
+    },
+    {
+      "name": "50%",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#b22cff"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#ea2222"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-direction",
+      "value": "alternate"
+    }
+  ]
+}

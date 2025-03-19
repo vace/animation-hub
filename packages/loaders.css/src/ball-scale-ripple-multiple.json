@@ -1,0 +1,165 @@
+{
+  "name": "ball-scale-ripple-multiple",
+  "animations": [
+    {
+      "name": "ball-scale-ripple-multiple",
+      "categories": [
+        "loader",
+        "ball",
+        "scale",
+        "ripple",
+        "multiple"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.1)"
+            },
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "70%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            },
+            {
+              "property": "opacity",
+              "value": ".7"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-ripple-multiple"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(-25px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-ripple-multiple>div:nth-child(0)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.8s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-ripple-multiple>div:nth-child(1)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.6s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-ripple-multiple>div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.4s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-scale-ripple-multiple>div:nth-child(3)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-.2s"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-scale-ripple-multiple",
+      "selectors": [
+        ".ball-scale-ripple-multiple>div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "top",
+          "value": "-2px"
+        },
+        {
+          "property": "left",
+          "value": "-26px"
+        },
+        {
+          "property": "width",
+          "value": "50px"
+        },
+        {
+          "property": "height",
+          "value": "50px"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        },
+        {
+          "property": "border",
+          "value": "2px solid #fff"
+        },
+        {
+          "property": "animation",
+          "value": "ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(.21, .53, .56, .8)"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-scale-ripple-multiple\"><div></div><div></div><div></div></div>"
+}

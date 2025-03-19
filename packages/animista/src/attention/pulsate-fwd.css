@@ -1,0 +1,12 @@
+@keyframes pulsate-fwd {
+  0%, to {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.pulsate-fwd {
+  animation-name: pulsate-fwd;
+}

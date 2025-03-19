@@ -1,0 +1,29 @@
+{
+  "name": "slide-bck-left",
+  "categories": [
+    "basic",
+    "slide",
+    "back",
+    "left"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) translateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-400px) translateX(-200px)"
+        }
+      ]
+    }
+  ]
+}

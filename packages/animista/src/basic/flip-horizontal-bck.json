@@ -1,0 +1,29 @@
+{
+  "name": "flip-horizontal-bck",
+  "categories": [
+    "basic",
+    "flip",
+    "horizontal",
+    "back"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(0) rotateX(0)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translateZ(-260px) rotateX(180deg)"
+        }
+      ]
+    }
+  ]
+}

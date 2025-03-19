@@ -1,0 +1,62 @@
+{
+  "name": "lightSpeedInRight",
+  "categories": [
+    "specials",
+    "light",
+    "speed",
+    "entrance",
+    "right"
+  ],
+  "keyframes": [
+    {
+      "name": "from",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(100%, 0, 0) skewX(-30deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skewX(20deg)"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "skewX(-5deg)"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate3d(0, 0, 0)"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "property": "animation-timing-function",
+      "value": "ease-out"
+    }
+  ]
+}

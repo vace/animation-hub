@@ -1,0 +1,205 @@
+{
+  "name": "ball-clip-rotate-pulse",
+  "animations": [
+    {
+      "name": "rotate",
+      "categories": [
+        "loader",
+        "ball",
+        "clip",
+        "rotate",
+        "pulse"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(0)"
+            }
+          ]
+        },
+        {
+          "name": "50%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(180deg)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "rotate(360deg)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ball-pulse",
+      "categories": [
+        "loader",
+        "ball",
+        "clip",
+        "rotate",
+        "pulse"
+      ],
+      "keyframes": [
+        {
+          "name": "30%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(.3)"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "transform",
+              "value": "scale(1)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-clip-rotate-pulse"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "transform",
+          "value": "translateY(-15px)"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".ball-clip-rotate-pulse>div"
+      ],
+      "declarations": [
+        {
+          "property": "animation-fill-mode",
+          "value": "both"
+        },
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "top",
+          "value": "0"
+        },
+        {
+          "property": "left",
+          "value": "0"
+        },
+        {
+          "property": "border-radius",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "ball-pulse",
+      "selectors": [
+        ".ball-clip-rotate-pulse>div:first-child"
+      ],
+      "declarations": [
+        {
+          "property": "background",
+          "value": "#fff"
+        },
+        {
+          "property": "height",
+          "value": "16px"
+        },
+        {
+          "property": "width",
+          "value": "16px"
+        },
+        {
+          "property": "top",
+          "value": "7px"
+        },
+        {
+          "property": "left",
+          "value": "-7px"
+        },
+        {
+          "property": "animation",
+          "value": "ball-pulse 1s 0s cubic-bezier(.09, .57, .49, .9) infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "rotate",
+      "selectors": [
+        ".ball-clip-rotate-pulse>div:last-child"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "width",
+          "value": "30px"
+        },
+        {
+          "property": "height",
+          "value": "30px"
+        },
+        {
+          "property": "left",
+          "value": "-16px"
+        },
+        {
+          "property": "top",
+          "value": "-2px"
+        },
+        {
+          "property": "background",
+          "value": "0 0"
+        },
+        {
+          "property": "border",
+          "value": "2px solid"
+        },
+        {
+          "property": "border-color",
+          "value": "#fff transparent"
+        },
+        {
+          "property": "animation",
+          "value": "rotate 1s 0s cubic-bezier(.09, .57, .49, .9) infinite"
+        },
+        {
+          "property": "animation-duration",
+          "value": "1s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"ball-clip-rotate-pulse\"><div></div><div></div></div>"
+}

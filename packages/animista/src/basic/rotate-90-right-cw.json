@@ -1,0 +1,37 @@
+{
+  "name": "rotate-90-right-cw",
+  "categories": [
+    "basic",
+    "rotate",
+    "right",
+    "cw"
+  ],
+  "keyframes": [
+    {
+      "name": "0%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(0)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "right"
+        }
+      ]
+    },
+    {
+      "name": "to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "rotate(90deg)"
+        },
+        {
+          "property": "transform-origin",
+          "value": "right"
+        }
+      ]
+    }
+  ]
+}

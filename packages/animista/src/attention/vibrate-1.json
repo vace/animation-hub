@@ -1,0 +1,54 @@
+{
+  "name": "vibrate-1",
+  "categories": [
+    "attention",
+    "vibrate"
+  ],
+  "keyframes": [
+    {
+      "name": "0%, to",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(0)"
+        }
+      ]
+    },
+    {
+      "name": "20%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(-2px, 2px)"
+        }
+      ]
+    },
+    {
+      "name": "40%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(-2px, -2px)"
+        }
+      ]
+    },
+    {
+      "name": "60%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(2px, 2px)"
+        }
+      ]
+    },
+    {
+      "name": "80%",
+      "declarations": [
+        {
+          "property": "transform",
+          "value": "translate(2px, -2px)"
+        }
+      ]
+    }
+  ]
+}

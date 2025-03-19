@@ -1,0 +1,13 @@
+@keyframes tracking-out-contract {
+  0%, 50% {
+    opacity: 1;
+  }
+  to {
+    letter-spacing: -.5em;
+    opacity: 0;
+  }
+}
+
+.tracking-out-contract {
+  animation-name: tracking-out-contract;
+}

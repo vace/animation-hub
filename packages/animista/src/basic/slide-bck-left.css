@@ -1,0 +1,12 @@
+@keyframes slide-bck-left {
+  0% {
+    transform: translateZ(0) translateX(0);
+  }
+  to {
+    transform: translateZ(-400px) translateX(-200px);
+  }
+}
+
+.slide-bck-left {
+  animation-name: slide-bck-left;
+}

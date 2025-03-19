@@ -1,0 +1,14 @@
+@keyframes scale-up-hor-left {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0% 0%;
+  }
+  to {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+  }
+}
+
+.scale-up-hor-left {
+  animation-name: scale-up-hor-left;
+}

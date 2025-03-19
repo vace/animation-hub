@@ -1,0 +1,199 @@
+{
+  "name": "ripple",
+  "animations": [
+    {
+      "name": "lds-ripple",
+      "categories": [
+        "spinner",
+        "ripple",
+        "lds"
+      ],
+      "keyframes": [
+        {
+          "name": "0%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "36px"
+            },
+            {
+              "property": "left",
+              "value": "36px"
+            },
+            {
+              "property": "width",
+              "value": "8px"
+            },
+            {
+              "property": "height",
+              "value": "8px"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "4.9%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "36px"
+            },
+            {
+              "property": "left",
+              "value": "36px"
+            },
+            {
+              "property": "width",
+              "value": "8px"
+            },
+            {
+              "property": "height",
+              "value": "8px"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "name": "5%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "36px"
+            },
+            {
+              "property": "left",
+              "value": "36px"
+            },
+            {
+              "property": "width",
+              "value": "8px"
+            },
+            {
+              "property": "height",
+              "value": "8px"
+            },
+            {
+              "property": "opacity",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "name": "100%",
+          "declarations": [
+            {
+              "property": "top",
+              "value": "0"
+            },
+            {
+              "property": "left",
+              "value": "0"
+            },
+            {
+              "property": "width",
+              "value": "80px"
+            },
+            {
+              "property": "height",
+              "value": "80px"
+            },
+            {
+              "property": "opacity",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectors": [
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ripple",
+        ".lds-ripple div"
+      ],
+      "declarations": [
+        {
+          "property": "box-sizing",
+          "value": "border-box"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ripple"
+      ],
+      "declarations": [
+        {
+          "property": "display",
+          "value": "inline-block"
+        },
+        {
+          "property": "position",
+          "value": "relative"
+        },
+        {
+          "property": "width",
+          "value": "80px"
+        },
+        {
+          "property": "height",
+          "value": "80px"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "lds-ripple",
+      "selectors": [
+        ".lds-ripple div"
+      ],
+      "declarations": [
+        {
+          "property": "position",
+          "value": "absolute"
+        },
+        {
+          "property": "border",
+          "value": "4px solid currentColor"
+        },
+        {
+          "property": "opacity",
+          "value": "1"
+        },
+        {
+          "property": "border-radius",
+          "value": "50%"
+        },
+        {
+          "property": "animation",
+          "value": "lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite"
+        }
+      ]
+    },
+    {
+      "type": "selector",
+      "animation": "",
+      "selectors": [
+        ".lds-ripple div:nth-child(2)"
+      ],
+      "declarations": [
+        {
+          "property": "animation-delay",
+          "value": "-0.5s"
+        }
+      ]
+    }
+  ],
+  "template": "<div class=\"lds-ripple\"><div></div><div></div></div>"
+}
